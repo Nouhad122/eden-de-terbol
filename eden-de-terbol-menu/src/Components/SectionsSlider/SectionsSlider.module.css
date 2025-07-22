@@ -1,0 +1,275 @@
+.sliderContainer {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(13, 40, 24, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+  padding: 18px 0;
+  margin-bottom: 40px;
+}
+
+.slider {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+
+.scrollButton {
+  background: rgba(212, 175, 55, 0.2);
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  color: var(--gold-color, #d4af37);
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+.scrollButton:hover {
+  background: rgba(212, 175, 55, 0.3);
+  border-color: rgba(212, 175, 55, 0.6);
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.3);
+}
+
+.sectionsWrapper {
+  display: flex;
+  overflow-x: auto;
+  padding: 12px 0;
+  gap: 18px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  flex: 1;
+  scroll-behavior: smooth;
+  align-items: center;
+}
+
+.sectionsWrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.sectionButton {
+  border: 1px solid rgba(212, 175, 55, 0.4) !important;
+  background: rgba(212, 175, 55, 0.1) !important;
+  color: var(--gold-color, #d4af37) !important;
+  font-family: 'Playfair Display', serif !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  padding: 16px 20px !important;
+  height: auto !important;
+  border-radius: 28px !important;
+  transition: all 0.3s ease !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  cursor: pointer;
+  flex-shrink: 0 !important;
+  min-width: 100px !important;
+  max-width: 140px !important;
+  box-sizing: border-box !important;
+}
+
+.sectionButton:hover {
+  background: rgba(212, 175, 55, 0.2) !important;
+  border-color: rgba(212, 175, 55, 0.6) !important;
+  transform: translateY(-3px) !important;
+  box-shadow: 0 6px 16px rgba(212, 175, 55, 0.3) !important;
+  color: var(--gold-color, #d4af37) !important;
+}
+
+.sectionButton:focus,
+.sectionButton:active {
+  background: rgba(212, 175, 55, 0.3) !important;
+  border-color: var(--gold-color, #d4af37) !important;
+  color: var(--gold-color, #d4af37) !important;
+  outline: none !important;
+}
+
+.sectionIcon {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.sectionText {
+  font-size: 12px;
+  line-height: 1.2;
+  text-align: center;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  width: 100%;
+  display: block;
+  max-height: 40px;
+  overflow: hidden;
+  font-weight: 600;
+}
+
+/* Tablet responsiveness */
+@media (max-width: 1024px) {
+  .slider {
+    padding: 0 16px;
+    gap: 16px;
+  }
+  
+  .scrollButton {
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+  }
+  
+  .sectionsWrapper {
+    gap: 15px;
+  }
+  
+  .sectionButton {
+    min-width: 90px !important;
+    max-width: 120px !important;
+    padding: 14px 16px !important;
+    font-size: 13px !important;
+  }
+  
+  .sectionIcon {
+    font-size: 22px;
+  }
+  
+  .sectionText {
+    font-size: 11px;
+    max-height: 36px;
+  }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .sliderContainer {
+    padding: 20px 0;
+    margin-bottom: 30px;
+  }
+  
+  .slider {
+    padding: 0 12px;
+    gap: 12px;
+  }
+  
+  .scrollButton {
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+  }
+  
+  .sectionsWrapper {
+    gap: 12px;
+    padding: 10px 0;
+  }
+  
+  .sectionButton {
+    min-width: 80px !important;
+    max-width: 100px !important;
+    padding: 12px 14px !important;
+    gap: 6px !important;
+    border-radius: 24px !important;
+    font-size: 12px !important;
+  }
+  
+  .sectionIcon {
+    font-size: 20px;
+  }
+  
+  .sectionText {
+    font-size: 10px !important;
+    max-height: 32px;
+    line-height: 1.1;
+  }
+}
+
+/* Small mobile responsiveness */
+@media (max-width: 480px) {
+  .sliderContainer {
+    padding: 18px 0;
+  }
+  
+  .slider {
+    padding: 0 8px;
+    gap: 10px;
+  }
+  
+  .scrollButton {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+  
+  .sectionsWrapper {
+    gap: 10px;
+    padding: 8px 0;
+  }
+  
+  .sectionButton {
+    min-width: 70px !important;
+    max-width: 85px !important;
+    padding: 10px 12px !important;
+    gap: 5px !important;
+    border-radius: 20px !important;
+    font-size: 11px !important;
+  }
+  
+  .sectionIcon {
+    font-size: 18px;
+  }
+  
+  .sectionText {
+    font-size: 9px !important;
+    max-height: 28px;
+    line-height: 1.0;
+  }
+}
+
+/* Extra small mobile */
+@media (max-width: 360px) {
+  .slider {
+    padding: 0 6px;
+    gap: 8px;
+  }
+  
+  .scrollButton {
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+  }
+  
+  .sectionsWrapper {
+    gap: 8px;
+  }
+  
+  .sectionButton {
+    min-width: 60px !important;
+    max-width: 75px !important;
+    padding: 8px 10px !important;
+    font-size: 10px !important;
+  }
+  
+  .sectionIcon {
+    font-size: 16px;
+  }
+  
+  .sectionText {
+    font-size: 8px !important;
+    max-height: 24px;
+  }
+} 

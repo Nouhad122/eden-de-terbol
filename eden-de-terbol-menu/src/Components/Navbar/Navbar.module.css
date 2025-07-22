@@ -1,0 +1,8 @@
+header{
+    border-bottom: solid 1px var(--gold-color);
+    text-align: center;
+    padding: 1rem;
+}
+header h1{
+    color: var(--gold-color);
+}

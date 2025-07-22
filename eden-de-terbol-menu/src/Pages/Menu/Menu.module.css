@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+
+.menuContainer {
+  min-height: 100vh;
+  padding: 60px 0;
+  font-family: 'Crimson Text', serif;
+  color: var(--font-white-color);
+  position: relative;
+}
+
+.menuContainer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 80%, rgba(212, 175, 55, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(212, 175, 55, 0.08) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.restaurantDescription {
+  max-width: 900px;
+  margin: 0 auto 80px auto;
+  text-align: center;
+  padding: 40px 30px;
+  background: rgba(212, 175, 55, 0.05);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: 8px;
+  position: relative;
+  backdrop-filter: blur(10px);
+}
+
+.restaurantDescription::before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--gold-color), transparent);
+}
+
+.restaurantDescription p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin: 0;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  font-family: 'Crimson Text', serif;
+  color: #f0ead6;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.menuSection {
+  max-width: 900px;
+  margin: 0 auto 60px auto;
+  padding: 0 30px;
+  position: relative;
+}
+
+.sectionTitle {
+  font-family: var(--font-family);
+  font-size: 42px;
+  font-weight: 600;
+  text-align: center;
+  margin: 50px 0 40px 0;
+  color: var(--gold-color);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  position: relative;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.sectionTitle::after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, var(--gold-color), transparent);
+  border-radius: 2px;
+}
+
+.sectionTitle::before {
+  content: '◆';
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 16px;
+  color: var(--gold-color);
+}
+
+.menuItem {
+  margin-bottom: 35px;
+  padding: 25px 30px;
+  background: rgba(13, 40, 24, 0.4);
+  border: 1px solid rgba(212, 175, 55, 0.15);
+  border-radius: 12px;
+  position: relative;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(5px);
+}
+
+.menuItem::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.3), transparent);
+}
+
+.itemHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.itemHeader::after {
+  content: '';
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, var(--gold-color), transparent);
+  opacity: 0.3;
+}
+
+.itemName {
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+  color: var(--font-white-color);
+  flex: 1;
+  letter-spacing: 0.5px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.price {
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--gold-color);
+  white-space: nowrap;
+  margin-left: 30px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.itemDescription {
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1.6;
+  margin: 0;
+  color: rgba(240, 234, 214, 0.85);
+  letter-spacing: 0.4px;
+  font-family: 'Crimson Text', serif;
+  padding-top: 8px;
+}
+
+/* Decorative elements */
+.menuSection:nth-child(2)::before,
+.menuSection:nth-child(3)::before {
+  content: '';
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--gold-color), transparent);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .menuContainer {
+    padding: 40px 0;
+  }
+  
+  .restaurantDescription {
+    margin-bottom: 50px;
+    padding: 30px 20px;
+  }
+  
+  .restaurantDescription p {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+  }
+  
+  .sectionTitle {
+    font-size: 32px;
+    letter-spacing: 3px;
+    margin: 40px 0 30px 0;
+  }
+  
+  .menuItem {
+    padding: 20px 20px;
+    margin-bottom: 25px;
+  }
+  
+  .itemName {
+    font-size: 20px;
+  }
+  
+  .price {
+    font-size: 18px;
+    margin-left: 15px;
+  }
+  
+  .itemDescription {
+    font-size: 14px;
+  }
+  
+  .itemHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .price {
+    margin-left: 0;
+    align-self: flex-end;
+  }
+}
+
+@media (max-width: 480px) {
+  .menuContainer {
+    padding: 30px 0;
+  }
+  
+  .restaurantDescription {
+    padding: 25px 15px;
+  }
+  
+  .sectionTitle {
+    font-size: 28px;
+    letter-spacing: 2px;
+  }
+  
+  .menuItem {
+    padding: 18px 15px;
+  }
+  
+  .itemName {
+    font-size: 18px;
+  }
+  
+  .price {
+    font-size: 16px;
+  }
+}
