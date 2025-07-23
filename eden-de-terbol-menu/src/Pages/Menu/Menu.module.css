@@ -64,7 +64,7 @@
   position: relative;
   background: linear-gradient(135deg, rgba(212, 175, 55, 0.03) 0%, transparent 100%);
   border-radius: 8px;
-  border: solid 6px var(--gold-color);
+  border: solid 2px var(--gold-color);
 }
 
 .menuSection::before {
