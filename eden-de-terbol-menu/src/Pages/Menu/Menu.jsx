@@ -3,9 +3,35 @@ import styles from './Menu.module.css'
 import MenuSection from '../../Components/MenuComps/MenuSection'
 import SectionsSlider from '../../Components/SectionsSlider/SectionsSlider'
 import menuItems from '../../data/menuItems.json'
-
+import seaFoodImage from '../../assets/seaFood.jpg'
+import dessertImage from '../../assets/dessert.jpg'
+import pastaImage from '../../assets/pasta.jpg'
+import starterImage from '../../assets/starter.jpg'
+import drinkImage from '../../assets/drink.jpg'
+import burgerImage from '../../assets/burger.jpg'
+import shrimpImage from '../../assets/shrimp.jpg'
 const Menu = () => {
   const items = menuItems
+  
+  // Image mapping for each section
+  const sectionImages = {
+    'APPETIZERS/ STARTERS': shrimpImage,
+    'SALADS': starterImage,
+    'PIZZA': burgerImage,
+    'PASTA': pastaImage,
+    'CHICKEN': burgerImage,
+    'BEEF': burgerImage,
+    'SEA FOOD': seaFoodImage,
+    'SOUP': starterImage,
+    'DESSERT': dessertImage,
+    'HOT BEVERAGES': drinkImage,
+    'MILKSHAKES': drinkImage,
+    'COLD COFFEE & FRAPPE': drinkImage,
+    'REFRESHERS DRINKS': drinkImage,
+    'Mixology Drinks': drinkImage,
+    'SMOOTHIES': drinkImage
+  }
+  
   return (
     <div className={styles.menuContainer}>
       <div className={styles.restaurantDescription}>
@@ -26,12 +52,14 @@ const Menu = () => {
             key={section}
             id={section.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase()}
           >
+            <div className={styles.menuSectionImage}>
+              <img src={sectionImages[section] || starterImage} alt={section} />
+            </div>
+            <div className={styles.menuSectionWrapper}>
             <MenuSection 
               sectionTitle={section} 
               items={items.filter(item => item.section === section)}
             />
-            <div className={styles.menuSectionImage}>
-              <img src="https://feelgoodfoodie.net/wp-content/uploads/2020/04/Caesar-Salad-TIMG.jpg" alt={section} />
             </div>
           </section>
         ))
