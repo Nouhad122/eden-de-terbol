@@ -1,9 +1,21 @@
-header{
+.header {
     border-bottom: solid 1px var(--gold-color);
     text-align: center;
     padding: 1rem;
+    background: var(--body-color);
+    position: sticky;
+    top: 0;
+    z-index: 200;
+    backdrop-filter: blur(10px);
 }
-header img{
+
+.logo {
     width: 90px;
     height: 90px;
+    transition: transform 0.3s ease;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+.logo:hover {
+    transform: scale(1.05);
 }
