@@ -1,51 +1,52 @@
 import React, { useRef } from 'react'
-import styles from './SectionsSlider.module.css'
 import { 
   GiKnifeFork, 
-  GiSandwich, 
   GiNoodles, 
-  GiChicken, 
-  GiCow, 
+  GiChickenOven, 
   GiFishCooked, 
-  GiBowlOfRice, 
   GiCakeSlice,  
-  GiBlender 
+  GiBlender ,
+  GiFullPizza,
+  GiOrange 
 } from 'react-icons/gi'
-// import { FaPizzaSlice } from "react-icons/fa6"
-// import { IoMdCafe } from 'react-icons/io'
-// import { BiCoffeeAlt } from 'react-icons/bi'
+import { LuSalad, LuBeef  } from "react-icons/lu";
+import { TbSoupFilled, TbMilkshake  } from "react-icons/tb";
+import { FaMugHot } from "react-icons/fa";
+import { SiBuymeacoffee } from "react-icons/si";
+import { RiDrinks2Fill } from "react-icons/ri";
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md'
+import styles from './SectionsSlider.module.css'
+import sectionsData from '../../data/sections.json'
 
 const SectionsSlider = () => {
   const sliderRef = useRef(null)
   
-  const sections = [
-    { name: 'APPETIZERS/ STARTERS', icon: <GiKnifeFork /> },
-    { name: 'SALADS', icon: <GiSandwich /> },
-    { name: 'PIZZA', icon: null },
-    { name: 'PASTA', icon: <GiNoodles /> },
-    { name: 'CHICKEN', icon: <GiChicken /> },
-    { name: 'BEEF', icon: <GiCow /> },
-    { name: 'SEA FOOD', icon: <GiFishCooked /> },
-    { name: 'SOUP', icon: <GiBowlOfRice /> },
-    { name: 'DESSERT', icon: <GiCakeSlice /> },
-    { name: 'HOT BEVERAGES', icon: null },
-    { name: 'MILKSHAKES', icon: null },
-    { name: 'COLD COFFEE & FRAPPE', icon: null },
-    { name: 'REFRESHERS DRINKS', icon: null },
-    { name: 'Mixology Drinks', icon: null },
-    { name: 'SMOOTHIES', icon: <GiBlender /> }
-  ]
+  // Icon mapping object
+  const iconMap = {
+    knifeFork: <GiKnifeFork />,
+    salad: <LuSalad />,
+    pizza: <GiFullPizza />,
+    noodles: <GiNoodles />,
+    chicken: <GiChickenOven />,
+    beef: <LuBeef />,
+    fish: <GiFishCooked />,
+    soup: <TbSoupFilled />,
+    cake: <GiCakeSlice />,
+    hotMug: <FaMugHot />,
+    milkshake: <TbMilkshake />,
+    coffee: <SiBuymeacoffee />,
+    orange: <GiOrange />,
+    drinks: <RiDrinks2Fill />,
+    blender: <GiBlender />
+  }
+  
+  const sections = sectionsData.map(section => ({
+    name: section.name,
+    icon: iconMap[section.iconId]
+  }))
 
-  const scrollToSection = (sectionName) => {
-    const element = document.getElementById(sectionName.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase())
-    if (element) {
-      element.scrollIntoView({ 
-        behavior: 'smooth',
-        block: 'start',
-        inline: 'nearest'
-      })
-    }
+  const getSectionId = (sectionName) => {
+    return sectionName.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase()
   }
 
   const scrollLeft = () => {
@@ -81,14 +82,14 @@ const SectionsSlider = () => {
         
         <div className={styles.sectionsWrapper} ref={sliderRef}>
           {sections.map((section, index) => (
-            <button
+            <a
               key={index}
+              href={`#${getSectionId(section.name)}`}
               className={styles.sectionButton}
-              onClick={() => scrollToSection(section.name)}
             >
               <span className={styles.sectionIcon}>{section.icon}</span>
               <span className={styles.sectionText}>{section.name}</span>
-            </button>
+            </a>
           ))}
         </div>
         

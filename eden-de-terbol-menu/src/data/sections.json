@@ -1,0 +1,17 @@
+[
+  { "name": "APPETIZERS/ STARTERS", "iconId": "knifeFork" },
+  { "name": "SALADS", "iconId": "salad" },
+  { "name": "PIZZA", "iconId": "pizza" },
+  { "name": "PASTA", "iconId": "noodles" },
+  { "name": "CHICKEN", "iconId": "chicken" },
+  { "name": "BEEF", "iconId": "beef" },
+  { "name": "SEA FOOD", "iconId": "fish" },
+  { "name": "SOUP", "iconId": "soup" },
+  { "name": "DESSERT", "iconId": "cake" },
+  { "name": "HOT BEVERAGES", "iconId": "hotMug" },
+  { "name": "MILKSHAKES", "iconId": "milkshake" },
+  { "name": "COLD COFFEE & FRAPPE", "iconId": "coffee" },
+  { "name": "REFRESHERS DRINKS", "iconId": "orange" },
+  { "name": "Mixology Drinks", "iconId": "drinks" },
+  { "name": "SMOOTHIES", "iconId": "blender" }
+]

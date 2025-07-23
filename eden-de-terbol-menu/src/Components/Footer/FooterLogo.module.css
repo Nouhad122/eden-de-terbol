@@ -1,0 +1,91 @@
+/* Logo Section */
+.logoSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.logoImage {
+  max-width: 120px;
+  height: auto;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+  transition: transform 0.3s ease;
+}
+
+.logoImage:hover {
+  transform: scale(1.05);
+}
+
+.logoSubtitle {
+  font-size: 0.875rem;
+  color: rgba(248, 246, 240, 0.8);
+  font-style: italic;
+  letter-spacing: 1px;
+  margin-top: 0.75rem;
+  font-family: var(--font-family);
+}
+
+.description {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: rgba(248, 246, 240, 0.85);
+  text-align: center;
+  margin: 0;
+  font-family: 'Crimson Text', serif;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.socialIcon {
+  width: 2.5rem;
+  height: 2.5rem;
+  background: rgba(212, 175, 55, 0.15);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold-color);
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.socialIcon:hover {
+  background: rgba(212, 175, 55, 0.25);
+  border-color: var(--gold-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .logoImage {
+    max-width: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logoImage {
+    max-width: 80px;
+  }
+  
+  .socialIcons {
+    gap: 0.75rem;
+  }
+  
+  .socialIcon {
+    width: 2rem;
+    height: 2rem;
+    font-size: 0.875rem;
+  }
+} 

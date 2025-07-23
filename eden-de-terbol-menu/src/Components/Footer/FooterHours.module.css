@@ -1,0 +1,84 @@
+/* Section Title */
+.sectionTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--gold-color);
+  margin: 0 0 1.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: var(--font-family);
+}
+
+.titleIcon {
+  font-size: 1.125rem;
+  color: var(--gold-color);
+}
+
+/* Hours Section */
+.hoursSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.hoursGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.dayGroup {
+  padding: 0.75rem 1rem;
+  background: rgba(13, 40, 24, 0.3);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: 8px;
+  backdrop-filter: blur(5px);
+  transition: all 0.3s ease;
+}
+
+.dayGroup:hover {
+  background: rgba(13, 40, 24, 0.4);
+  border-color: rgba(212, 175, 55, 0.3);
+}
+
+.days {
+  font-weight: 600;
+  color: var(--gold-color);
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+  font-family: var(--font-family);
+}
+
+.hours {
+  color: var(--font-white-color);
+  font-size: 0.875rem;
+  font-family: 'Crimson Text', serif;
+}
+
+.specialNote {
+  font-size: 0.75rem;
+  color: rgba(248, 246, 240, 0.7);
+  font-style: italic;
+  text-align: center;
+  padding: 0.75rem;
+  background: rgba(212, 175, 55, 0.1);
+  border-radius: 6px;
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  font-family: 'Crimson Text', serif;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hoursGrid,
+  .hoursSection {
+    align-items: center;
+  }
+  
+  .dayGroup {
+    text-align: center;
+    max-width: 300px;
+  }
+} 

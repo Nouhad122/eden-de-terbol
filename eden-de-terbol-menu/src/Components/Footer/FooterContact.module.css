@@ -1,0 +1,118 @@
+/* Section Title */
+.sectionTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--gold-color);
+  margin: 0 0 1.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: var(--font-family);
+}
+
+.titleIcon {
+  font-size: 1.125rem;
+  color: var(--gold-color);
+}
+
+/* Contact Section */
+.contactSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.address {
+  padding: 1rem;
+  background: rgba(13, 40, 24, 0.3);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: 8px;
+  backdrop-filter: blur(5px);
+  transition: all 0.3s ease;
+}
+
+.address:hover {
+  background: rgba(13, 40, 24, 0.4);
+  border-color: rgba(212, 175, 55, 0.3);
+}
+
+.addressLine {
+  font-size: 0.9rem;
+  color: var(--font-white-color);
+  margin-bottom: 0.25rem;
+  font-family: 'Crimson Text', serif;
+}
+
+.addressLine:last-child {
+  margin-bottom: 0;
+  font-weight: 600;
+  color: var(--gold-color);
+}
+
+.contactDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--font-white-color);
+  background: rgba(13, 40, 24, 0.2);
+  border-radius: 6px;
+  border: 1px solid rgba(212, 175, 55, 0.1);
+  transition: all 0.3s ease;
+  font-family: 'Crimson Text', serif;
+}
+
+.contactItem:hover {
+  background: rgba(13, 40, 24, 0.3);
+  border-color: rgba(212, 175, 55, 0.2);
+}
+
+.contactIcon {
+  color: var(--gold-color);
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+.reservationNote {
+  font-size: 0.75rem;
+  color: rgba(248, 246, 240, 0.7);
+  font-style: italic;
+  text-align: center;
+  padding: 0.75rem;
+  background: rgba(212, 175, 55, 0.1);
+  border-radius: 6px;
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  font-family: 'Crimson Text', serif;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contactInfo {
+    align-items: center;
+  }
+  
+  .contactDetails {
+    align-items: center;
+    max-width: 300px;
+  }
+  
+  .address {
+    text-align: center;
+    max-width: 300px;
+  }
+} 

@@ -45,7 +45,7 @@
 }
 
 .restaurantDescription p {
-  font-size: 18px;
+  font-size: 1rem;
   line-height: 1.8;
   margin: 0;
   font-weight: 400;
@@ -63,8 +63,7 @@
 }
 
 .sectionTitle {
-  font-family: var(--font-family);
-  font-size: 42px;
+  font-size: 1.875rem;
   font-weight: 600;
   text-align: center;
   margin: 50px 0 40px 0;
@@ -93,8 +92,17 @@
   top: -25px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 16px;
+  font-size: 1rem;
   color: var(--gold-color);
+}
+.menuSectionImage{
+    height: 300px;
+}
+
+.menuSectionImage img{
+    height: 100%;
+    width: 100%;
+    object-fit:contain;
 }
 
 .menuItem {
@@ -138,8 +146,7 @@
 }
 
 .itemName {
-  font-family: var(--font-family);
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 500;
   margin: 0;
   color: var(--font-white-color);
@@ -149,8 +156,7 @@
 }
 
 .price {
-  font-family: var(--font-family);
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
   color: var(--gold-color);
   white-space: nowrap;
@@ -160,7 +166,7 @@
 }
 
 .itemDescription {
-  font-size: 16px;
+  font-size: 1rem;
   font-style: italic;
   line-height: 1.6;
   margin: 0;
@@ -190,17 +196,15 @@
   }
   
   .restaurantDescription {
-    margin-bottom: 50px;
+    margin: 0 10px 50px 10px;
     padding: 30px 20px;
   }
   
   .restaurantDescription p {
-    font-size: 16px;
     letter-spacing: 0.5px;
   }
   
   .sectionTitle {
-    font-size: 32px;
     letter-spacing: 3px;
     margin: 40px 0 30px 0;
   }
@@ -210,21 +214,11 @@
     margin-bottom: 25px;
   }
   
-  .itemName {
-    font-size: 20px;
-  }
-  
   .price {
-    font-size: 18px;
     margin-left: 15px;
   }
   
-  .itemDescription {
-    font-size: 14px;
-  }
-  
   .itemHeader {
-    flex-direction: column;
     align-items: flex-start;
     gap: 8px;
   }
@@ -244,8 +238,11 @@
     padding: 25px 15px;
   }
   
+  .menuSection {
+    padding: 0 10px;
+  }
+  
   .sectionTitle {
-    font-size: 28px;
     letter-spacing: 2px;
   }
   
@@ -253,11 +250,9 @@
     padding: 18px 15px;
   }
   
-  .itemName {
-    font-size: 18px;
-  }
-  
-  .price {
-    font-size: 16px;
+  .menuSectionImage img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
   }
 }
