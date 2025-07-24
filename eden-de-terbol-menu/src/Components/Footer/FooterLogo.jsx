@@ -15,9 +15,7 @@ const FooterLogo = () => {
         where every dish tells a story of passion, tradition, and innovation.
       </p>
       <div className={styles.socialIcons}>
-        <div className={styles.socialIcon}><FaInstagram /></div>
-        <div className={styles.socialIcon}><FaFacebookF /></div>
-        <div className={styles.socialIcon}><FaTwitter /></div>
+        <div className={styles.socialIcon}><a href="https://www.instagram.com/edendeterbol?igsh=YTZqanQ3cWM0YzJo" target="_blank" rel="noopener noreferrer"><FaInstagram /></a></div>
       </div>
     </div>
   )

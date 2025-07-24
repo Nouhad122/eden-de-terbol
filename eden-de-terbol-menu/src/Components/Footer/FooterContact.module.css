@@ -10,7 +10,7 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   font-family: var(--font-family);
-}
+}s
 
 .titleIcon {
   font-size: 1.125rem;
@@ -102,7 +102,7 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .contactInfo {
+  .contactSection {
     align-items: center;
   }
   

@@ -10,7 +10,7 @@ const FooterContact = () => {
       'Terbol City, TC 12345'
     ],
     phone: '+961 81 205 201',
-    email: 'hello@edendeterbol.com'
+    email: 'eden.resto25@gmail.com'
   }
 
   return (
