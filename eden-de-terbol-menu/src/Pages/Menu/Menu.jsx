@@ -30,9 +30,11 @@ const Menu = () => {
     'HOT BEVERAGES': coffeeDrinkImage,
     'MILKSHAKES': null,
     'COLD COFFEE & FRAPPE': null,
-    'REFRESHERS DRINKS': coldDrinkImage,
-    'Mixology Drinks': null,
-    'SMOOTHIES': null
+    'WATER & SOFT': coldDrinkImage,
+    'REFRESHERS DRINKS': null,
+    'MIXOLOGY DRINKS': null,
+    'SMOOTHIES': null,
+    'ARGUILE': null
   }
   
   return (

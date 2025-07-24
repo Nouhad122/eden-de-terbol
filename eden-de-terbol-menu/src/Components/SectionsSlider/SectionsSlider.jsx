@@ -7,13 +7,15 @@ import {
   GiCakeSlice,  
   GiBlender ,
   GiFullPizza,
-  GiOrange 
+  GiOrange,
+  GiSmokingOrb  
 } from 'react-icons/gi'
 import { LuSalad, LuBeef  } from "react-icons/lu";
 import { TbSoupFilled, TbMilkshake  } from "react-icons/tb";
 import { FaMugHot } from "react-icons/fa";
 import { SiBuymeacoffee } from "react-icons/si";
 import { RiDrinks2Fill } from "react-icons/ri";
+import { FaBottleWater } from "react-icons/fa6";
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md'
 import styles from './SectionsSlider.module.css'
 import sectionsData from '../../data/sections.json'
@@ -25,19 +27,21 @@ const SectionsSlider = () => {
   const iconMap = {
     knifeFork: <GiKnifeFork />,
     salad: <LuSalad />,
+    pasta: <GiNoodles />,
     pizza: <GiFullPizza />,
-    noodles: <GiNoodles />,
     chicken: <GiChickenOven />,
     beef: <LuBeef />,
     fish: <GiFishCooked />,
     soup: <TbSoupFilled />,
-    cake: <GiCakeSlice />,
-    hotMug: <FaMugHot />,
+    dessert: <GiCakeSlice />,
+    hotDrink: <FaMugHot />,
     milkshake: <TbMilkshake />,
     coffee: <SiBuymeacoffee />,
     orange: <GiOrange />,
     drinks: <RiDrinks2Fill />,
-    blender: <GiBlender />
+    blender: <GiBlender />,
+    water: <FaBottleWater />,
+    smoking: <GiSmokingOrb />
   }
   
   const sections = sectionsData.map(section => ({
