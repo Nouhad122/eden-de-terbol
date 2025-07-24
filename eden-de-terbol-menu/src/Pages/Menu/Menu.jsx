@@ -12,7 +12,7 @@ import pizzaImage from '../../assets/pizza.jpg'
 import soupImage from '../../assets/soup.jpg'
 import coffeeDrinkImage from '../../assets/coffee-drink.jpg'
 import coldDrinkImage from '../../assets/cold-drinks.jpg'
-import beefImage from '../../assets/beef.JPG'
+import beefImage from '../../assets/beef.jpg'
 
 const Menu = () => {
   const items = menuItems
