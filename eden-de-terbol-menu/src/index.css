@@ -1,7 +1,7 @@
 :root{
   --green-color: rgba(13, 40, 24, 0.4);
   --gold-color: #d4af37;
-  --body-color: linear-gradient(135deg, #1a3b2b 0%, #0d2818 35%, #2d5a3d 70%, #1a3b2b 100%);
+  --body-color: #1a3b2b;
   --font-white-color: #f8f6f0;
   --font-family: 'Playfair Display', serif;
 }

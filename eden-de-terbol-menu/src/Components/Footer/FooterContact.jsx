@@ -9,7 +9,7 @@ const FooterContact = () => {
       'Gourmet District',
       'Terbol City, TC 12345'
     ],
-    phone: '(555) 123-EDEN',
+    phone: '+961 81 205 201',
     email: 'hello@edendeterbol.com'
   }
 

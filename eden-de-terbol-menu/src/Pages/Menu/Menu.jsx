@@ -6,30 +6,33 @@ import menuItems from '../../data/menuItems.json'
 import seaFoodImage from '../../assets/seafood.JPG'
 import dessertImage from '../../assets/dessert.JPG'
 import pastaImage from '../../assets/pasta.JPG'
-import starterImage from '../../assets/starter.JPG'
-import drinkImage from '../../assets/drink.JPG'
-import burgerImage from '../../assets/burger.JPG'
-import shrimpImage from '../../assets/shrimp.JPG'
+import starterImage from '../../assets/starter.JPG' 
+import saladImage from '../../assets/salad.jpg'
+import pizzaImage from '../../assets/pizza.jpg'
+import soupImage from '../../assets/soup.jpg'
+import coffeeDrinkImage from '../../assets/coffee-drink.jpg'
+import coldDrinkImage from '../../assets/cold-drinks.jpg'
+import beefImage from '../../assets/beef.JPG'
+
 const Menu = () => {
   const items = menuItems
   
-  // Image mapping for each section
   const sectionImages = {
-    'APPETIZERS/ STARTERS': shrimpImage,
-    'SALADS': starterImage,
-    'PIZZA': burgerImage,
+    'APPETIZERS/ STARTERS': starterImage,
+    'SALADS': saladImage,
+    'PIZZA': pizzaImage,
     'PASTA': pastaImage,
-    'CHICKEN': burgerImage,
-    'BEEF': burgerImage,
+    'CHICKEN': beefImage,
+    'BEEF': null,
     'SEA FOOD': seaFoodImage,
-    'SOUP': starterImage,
+    'SOUP': soupImage,
     'DESSERT': dessertImage,
-    'HOT BEVERAGES': drinkImage,
-    'MILKSHAKES': drinkImage,
-    'COLD COFFEE & FRAPPE': drinkImage,
-    'REFRESHERS DRINKS': drinkImage,
-    'Mixology Drinks': drinkImage,
-    'SMOOTHIES': drinkImage
+    'HOT BEVERAGES': coffeeDrinkImage,
+    'MILKSHAKES': null,
+    'COLD COFFEE & FRAPPE': null,
+    'REFRESHERS DRINKS': coldDrinkImage,
+    'Mixology Drinks': null,
+    'SMOOTHIES': null
   }
   
   return (
@@ -52,9 +55,12 @@ const Menu = () => {
             key={section}
             id={section.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase()}
           >
-            <div className={styles.menuSectionImage}>
-              <img src={sectionImages[section] || starterImage} alt={section} />
-            </div>
+             {
+                sectionImages[section] !== null && (
+                  <div className={styles.menuSectionImage}>
+                    <img src={sectionImages[section]} alt={section} />
+                  </div>
+            )}
             <div className={styles.menuSectionWrapper}>
             <MenuSection 
               sectionTitle={section} 

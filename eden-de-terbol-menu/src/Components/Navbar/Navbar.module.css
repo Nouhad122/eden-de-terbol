@@ -3,9 +3,6 @@
     text-align: center;
     padding: 1rem;
     background: var(--body-color);
-    position: sticky;
-    top: 0;
-    z-index: 200;
     backdrop-filter: blur(10px);
 }
 
