@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaInstagram, FaFacebookF, FaTwitter } from 'react-icons/fa'
+import { FaInstagram, FaWhatsapp } from 'react-icons/fa'
 import styles from './FooterLogo.module.css'
 import edenLogo from '../../assets/eden-logo.png'
 
@@ -16,7 +16,17 @@ const FooterLogo = () => {
           exceptional food with those who matter most.
       </p>
       <div className={styles.socialIcons}>
-        <div className={styles.socialIcon}><a href="https://www.instagram.com/edendeterbol?igsh=YTZqanQ3cWM0YzJo" target="_blank" rel="noopener noreferrer"><FaInstagram /></a></div>
+        <div className={styles.socialIcon}>
+          <a href="https://www.instagram.com/edendeterbol?igsh=YTZqanQ3cWM0YzJo" target="_blank" rel="noopener noreferrer">
+          <FaInstagram />
+          </a>
+        </div>
+
+        <div className={styles.socialIcon}>
+          <a href="https://wa.me/96181205201" target="_blank" rel="noopener noreferrer">
+          <FaWhatsapp />
+          </a>
+        </div>
       </div>
     </div>
   )
