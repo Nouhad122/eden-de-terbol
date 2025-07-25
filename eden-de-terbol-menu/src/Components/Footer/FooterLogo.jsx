@@ -8,11 +8,12 @@ const FooterLogo = () => {
     <div className={styles.logoSection}>
       <div className={styles.logo}>
         <img src={edenLogo} alt="Eden de Terbol" className={styles.logoImage} />
-        <div className={styles.logoSubtitle}>Fine Dining Experience</div>
+        <div className={styles.logoSubtitle}>A Culinary Haven</div>
       </div>
       <p className={styles.description}>
-        Nestled in the heart of tranquility, Eden de Terbol offers an exquisite culinary journey 
-        where every dish tells a story of passion, tradition, and innovation.
+        At Eden de Terbol, we craft more than just meals – we create experiences that celebrate
+         the art of fine dining, the warmth of Lebanese hospitality, and the joy of sharing
+          exceptional food with those who matter most.
       </p>
       <div className={styles.socialIcons}>
         <div className={styles.socialIcon}><a href="https://www.instagram.com/edendeterbol?igsh=YTZqanQ3cWM0YzJo" target="_blank" rel="noopener noreferrer"><FaInstagram /></a></div>

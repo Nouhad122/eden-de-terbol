@@ -44,6 +44,11 @@
   border-color: rgba(212, 175, 55, 0.3);
 }
 
+.addressLink{
+  color: var(--gold-color) !important;
+  text-decoration:underline;
+}
+
 .addressLine {
   font-size: 0.9rem;
   color: var(--font-white-color);

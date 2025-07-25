@@ -5,9 +5,14 @@ import styles from './FooterContact.module.css'
 const FooterContact = () => {
   const contactData = {
     address: [
-      '123 Culinary Boulevard',
-      'Gourmet District',
-      'Terbol City, TC 12345'
+        'El MIRADOR DE TERBOL',
+        <a 
+         href="https://maps.app.goo.gl/F3D383mXV1gRzoFZ7?g_st=ipc" 
+         target="_blank" 
+         rel="noopener noreferrer" 
+         className={styles.addressLink}>
+          https://maps.app.goo.gl/F3D383mXV1gRzoFZ7?g_st=ipc
+        </a>
     ],
     phone: '+961 81 205 201',
     email: 'eden.resto25@gmail.com'

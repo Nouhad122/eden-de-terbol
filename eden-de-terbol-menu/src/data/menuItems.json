@@ -121,677 +121,684 @@
   {
     "id": 18,
     "section": "PIZZA",
+    "itemName": "Marguerita Pizza",
+    "price": "$ 12.00",
+    "description": ""
+  },
+  {
+    "id": 19,
+    "section": "PIZZA",
+    "itemName": "Burger Pizza",
+    "price": "$ 15.00",
+    "description": ""
+  },
+  {
+    "id": 20,
+    "section": "PIZZA",
     "itemName": "Burrata Pizza",
     "price": "$ 15.00",
     "description": "Tomatoes sauce, burrata cheese, wild rocca, balsamic sauce, tomatoes cerises"
   },
   {
-    "id": 19,
+    "id": 21,
     "section": "PIZZA",
     "itemName": "Mexican Pizza",
     "price": "$ 13.00",
     "description": "Tomato sauce, chicken, cheddar cheese, nachos"
   },
   {
-    "id": 20,
+    "id": 22,
     "section": "PIZZA",
     "itemName": "Pesto Pizza",
     "price": "$ 12.00",
     "description": "Pesto sauce, fresh mozzarella, basil, parmesan cheese, cherry tomatoes"
   },
   {
-    "id": 21,
+    "id": 23,
     "section": "PIZZA",
     "itemName": "Eden Pizza",
     "price": "$ 13.00",
     "description": "Tomato sauce, fresh mozzarella, grilled red peppers, basil"
   },
   {
-    "id": 22,
+    "id": 24,
     "section": "PIZZA",
     "itemName": "Shrimp Mushroom Truffle Pizza",
     "price": "$ 15.00",
     "description": "Truffle sauce, mozzarella fresh, mushroom, parmesan cheese, shrimp, truffle oil"
   },
   {
-    "id": 23,
+    "id": 25,
     "section": "PIZZA",
     "itemName": "Chicken Mushroom Truffle Pizza",
     "price": "$ 15.00",
     "description": "Truffle sauce, fresh mozzarella, mushroom, parmesan, chicken, truffle oil"
   },
   {
-    "id": 24,
+    "id": 26,
     "section": "PIZZA",
     "itemName": "Pepperoni Pizza",
     "price": "$ 13.00",
     "description": "Tomato sauce, mozzarella fresh, beef pepperoni"
   },
   {
-    "id": 25,
+    "id": 27,
     "section": "PIZZA",
     "itemName": "Vegetarian Pizza",
     "price": "$ 13.00",
     "description": "Tomato sauce, mozzarella fresh, mushroom, white onion, colorful peppers, black olives, cherry tomatoes"
   },
   {
-    "id": 26,
+    "id": 28,
     "section": "CHICKEN",
     "itemName": "Chicken Mushroom",
     "price": "$ 15.00",
     "description": "Sautéed vegetables, white sauce, mushroom, wedges"
   },
   {
-    "id": 27,
+    "id": 29,
     "section": "CHICKEN",
-    "itemName": "Romania Chicken",
+    "itemName": "Romana Chicken",
     "price": "$ 13.00",
     "description": "Breaded chicken, mixed organic salad, fries"
   },
   {
-    "id": 28,
+    "id": 30,
     "section": "CHICKEN",
     "itemName": "Grilled Chicken",
     "price": "$ 13.00",
     "description": "Chicken, mixed organic salad, grilled potatoes, sauce"
   },
   {
-    "id": 29,
+    "id": 31,
     "section": "BEEF",
     "itemName": "Beef Stroganoff",
     "price": "$ 18.00",
     "description": "Rice, special sauce, beef, onions, mushroom"
   },
   {
-    "id": 30,
+    "id": 32,
     "section": "BEEF",
     "itemName": "Australian Fillet Steak",
     "price": "$ 35.00",
     "description": "Grilled vegetables, mashed potato, sauce (herb) (mushroom), steak"
   },
   {
-    "id": 31,
+    "id": 33,
     "section": "SEA FOOD",
     "itemName": "Salmon Fillet",
     "price": "$ 22.00",
     "description": "Salmon, mashed potato, sautéed vegetables"
   },
   {
-    "id": 32,
+    "id": 34,
     "section": "SEA FOOD",
     "itemName": "Nile Perch Filet",
     "price": "$ 15.00",
     "description": "Lemon sauce, mashed potato, asparagus, sautéed vegetables"
   },
   {
-    "id": 33,
+    "id": 35,
     "section": "SEA FOOD",
-    "itemName": "Risoto",
+    "itemName": "Risotto",
     "price": "$ 14.00",
     "description": "Arborio rice, special sauce shrimp"
   },
   {
-    "id": 34,
+    "id": 36,
     "section": "DESSERT",
     "itemName": "Eden Cheese Cake",
     "price": "$ 10.00",
     "description": "Baklava, pistachio sauce, cream cheese"
   },
   {
-    "id": 35,
+    "id": 37,
     "section": "DESSERT",
     "itemName": "Tiramisu",
     "price": "$ 8.00",
     "description": "Biscuit, cream tiramisu, cocoa, chocolate"
   },
   {
-    "id": 36,
+    "id": 38,
     "section": "DESSERT",
     "itemName": "Strawberry Panna Cotta",
     "price": "$ 7.00",
     "description": "Stawberry sauce, panna cotta, pecan nuts, macarponi cheese"
   },
   {
-    "id": 37,
+    "id": 39,
     "section": "DESSERT",
     "itemName": "Caramel Panna Cotta",
     "price": "$ 8.00",
     "description": "Caramel sauce, panna cotta, pecan nuts, macarponi cheese"
   },
   {
-    "id": 38,
+    "id": 40,
     "section": "DESSERT",
     "itemName": "Eden Crepe",
     "price": "$ 12.00",
     "description": "Pistachio sauce, chocolate"
   },
   {
-    "id": 39,
+    "id": 41,
     "section": "DESSERT",
     "itemName": "Meringue Mixed Berries",
     "price": "$ 8.00",
     "description": "Vanilla ice cream, meringue, mixed berry sauce"
   },
   {
-    "id": 40,
+    "id": 42,
     "section": "DESSERT",
     "itemName": "Pain Perdu",
     "price": "$ 9.00",
     "description": "Vanilla ice cream, caramel sauce"
   },
   {
-    "id": 41,
+    "id": 43,
     "section": "SOUP",
     "itemName": "Pumpkin Soup",
     "price": "$ 7.00",
     "description": ""
   },
   {
-    "id": 42,
+    "id": 44,
     "section": "SOUP",
     "itemName": "Asparagus Soup",
     "price": "$ 7.00",
     "description": ""
   },
   {
-    "id": 43,
-    "section": "HOT BEVERAGES",
-    "itemName": "Espresso",
-    "price": "$ 3.00",
-    "description": ""
-  },
-  {
-    "id": 44,
-    "section": "HOT BEVERAGES",
-    "itemName": "Turkish Coffee",
-    "price": "$ 2.50",
-    "description": ""
-  },
-  {
     "id": 45,
     "section": "HOT BEVERAGES",
-    "itemName": "Cappuccino",
-    "price": "$ 4.00",
+    "itemName": "Espresso",
+    "price": "$ 2.00",
     "description": ""
   },
   {
     "id": 46,
     "section": "HOT BEVERAGES",
-    "itemName": "Caffé latte",
-    "price": "$ 4.00",
+    "itemName": "Turkish Coffee",
+    "price": "$ 2.00",
     "description": ""
   },
   {
     "id": 47,
     "section": "HOT BEVERAGES",
-    "itemName": "Piccolo",
+    "itemName": "Cappuccino",
     "price": "$ 3.50",
     "description": ""
   },
   {
     "id": 48,
     "section": "HOT BEVERAGES",
-    "itemName": "Machiato",
-    "price": "$ 3.50",
+    "itemName": "Caffé latte",
+    "price": "$3.50",
     "description": ""
   },
   {
     "id": 49,
     "section": "HOT BEVERAGES",
-    "itemName": "Matcha Latte",
-    "price": "$ 7.00",
+    "itemName": "Piccolo",
+    "price": "$ 3.50",
     "description": ""
   },
   {
     "id": 50,
     "section": "HOT BEVERAGES",
-    "itemName": "Doppio",
-    "price": "$ 4.00",
+    "itemName": "Machiato",
+    "price": "$ 3.00",
     "description": ""
   },
   {
     "id": 51,
     "section": "HOT BEVERAGES",
-    "itemName": "Hot Chocolate",
-    "price": "$ 5.00",
+    "itemName": "Matcha Latte",
+    "price": "$ 4.50",
     "description": ""
   },
   {
     "id": 52,
     "section": "HOT BEVERAGES",
-    "itemName": "Nescafe",
-    "price": "$ 4.00",
+    "itemName": "Doppio",
+    "price": "$ 3.00",
     "description": ""
   },
   {
     "id": 53,
     "section": "HOT BEVERAGES",
-    "itemName": "Tea",
+    "itemName": "Belgian Hot Chocolate",
     "price": "$ 5.00",
     "description": ""
   },
   {
     "id": 54,
     "section": "HOT BEVERAGES",
-    "itemName": "Cramel Machiato",
-    "price": "$ 5.00",
+    "itemName": "Nescafe",
+    "price": "$ 3.00",
     "description": ""
   },
   {
     "id": 55,
     "section": "HOT BEVERAGES",
-    "itemName": "Mocha Latte",
-    "price": "$ 5.00",
+    "itemName": "Tea",
+    "price": "$ 3.50",
     "description": ""
   },
   {
     "id": 56,
-    "section": "MILKSHAKES",
-    "itemName": "Chocolate Shake",
-    "price": "$ 7.00",
+    "section": "HOT BEVERAGES",
+    "itemName": "Caramel Machiato",
+    "price": "$ 3.50",
     "description": ""
   },
   {
     "id": 57,
-    "section": "MILKSHAKES",
-    "itemName": "Cinnamon Lotus Shake",
-    "price": "$ 8.00",
+    "section": "HOT BEVERAGES",
+    "itemName": "Mocha Latte",
+    "price": "$ 4.00",
     "description": ""
   },
   {
     "id": 58,
     "section": "MILKSHAKES",
-    "itemName": "Strawberry Shake",
-    "price": "$ 7.00",
+    "itemName": "Chocolate Shake",
+    "price": "$ 5.00",
     "description": ""
   },
   {
     "id": 59,
     "section": "MILKSHAKES",
-    "itemName": "Caramel Shake",
-    "price": "$ 7.00",
+    "itemName": "Cinnamon Lotus Shake",
+    "price": "$ 5.50",
     "description": ""
   },
   {
     "id": 60,
     "section": "MILKSHAKES",
-    "itemName": "Vanilla Shake",
-    "price": "$ 7.00",
+    "itemName": "Strawberry Shake",
+    "price": "$ 5.00",
     "description": ""
   },
   {
     "id": 61,
     "section": "MILKSHAKES",
-    "itemName": "Oreo Shake",
-    "price": "$ 7.00",
+    "itemName": "Caramel Shake",
+    "price": "$ 5.00",
     "description": ""
   },
   {
     "id": 62,
-    "section": "COLD COFFEE & FRAPPE",
-    "itemName": "White Chocolate Frappe",
-    "price": "$ 7.00",
+    "section": "MILKSHAKES",
+    "itemName": "Vanilla Shake",
+    "price": "$ 5.00",
     "description": ""
   },
   {
     "id": 63,
-    "section": "COLD COFFEE & FRAPPE",
-    "itemName": "Mocha Frappe",
-    "price": "$ 7.00",
+    "section": "MILKSHAKES",
+    "itemName": "Oreo Shake",
+    "price": "$ 5.00",
     "description": ""
   },
   {
     "id": 64,
     "section": "COLD COFFEE & FRAPPE",
-    "itemName": "Caramel Frappe",
-    "price": "$ 7.00",
+    "itemName": "White Chocolate Frappe",
+    "price": "$ 5.50",
     "description": ""
   },
   {
     "id": 65,
     "section": "COLD COFFEE & FRAPPE",
-    "itemName": "Flavored Iced Latte",
-    "price": "$ 5.00",
+    "itemName": "Mocha Frappe",
+    "price": "$ 5.50",
     "description": ""
   },
   {
     "id": 66,
     "section": "COLD COFFEE & FRAPPE",
-    "itemName": "Iced Matcha Latte",
-    "price": "$ 7.50",
+    "itemName": "Caramel Frappe",
+    "price": "$ 5.50",
     "description": ""
   },
   {
     "id": 67,
     "section": "COLD COFFEE & FRAPPE",
-    "itemName": "Iced Latte",
+    "itemName": "Flavored Iced Latte",
     "price": "$ 4.50",
     "description": ""
   },
   {
     "id": 68,
     "section": "COLD COFFEE & FRAPPE",
-    "itemName": "Iced Nescafe",
-    "price": "$ 4.50",
+    "itemName": "Iced Matcha Latte",
+    "price": "$ 5.50",
     "description": ""
   },
   {
     "id": 69,
+    "section": "COLD COFFEE & FRAPPE",
+    "itemName": "Iced Latte",
+    "price": "$ 4.00",
+    "description": ""
+  },
+  {
+    "id": 70,
+    "section": "COLD COFFEE & FRAPPE",
+    "itemName": "Iced Nescafe",
+    "price": "$ 4.00",
+    "description": ""
+  },
+  {
+    "id": 71,
     "section": "WATER & SOFT",
     "itemName": "Water Large",
     "price": "$ 4.00",
     "description": ""
   },
   {
-    "id": 70,
-    "section": "WATER & SOFT",
-    "itemName": "Water Small",
-    "price": "$ 3.00",
-    "description": ""
-  },
-  {
-    "id": 71,
-    "section": "WATER & SOFT",
-    "itemName": "Sparkling Water",
-    "price": "$ 4.00",
-    "description": ""
-  },
-  {
     "id": 72,
     "section": "WATER & SOFT",
-    "itemName": "Pepsi",
-    "price": "$ 2.50",
+    "itemName": "Water Small",
+    "price": "$ 2.00",
     "description": ""
   },
   {
     "id": 73,
     "section": "WATER & SOFT",
-    "itemName": "Pepsi Diet",
-    "price": "$ 2.50",
+    "itemName": "Sparkling Water",
+    "price": "$ 3.00",
     "description": ""
   },
   {
     "id": 74,
     "section": "WATER & SOFT",
-    "itemName": "7up",
-    "price": "$ 2.50",
+    "itemName": "Pepsi",
+    "price": "$ 2.00",
     "description": ""
   },
   {
     "id": 75,
     "section": "WATER & SOFT",
-    "itemName": "7up Diet",
-    "price": "$ 2.50",
+    "itemName": "Pepsi Diet",
+    "price": "$ 2.00",
     "description": ""
   },
   {
     "id": 76,
     "section": "WATER & SOFT",
-    "itemName": "Mirinda",
-    "price": "$ 2.50",
+    "itemName": "7up",
+    "price": "$ 2.00",
     "description": ""
   },
   {
     "id": 77,
     "section": "WATER & SOFT",
-    "itemName": "V Green Energy Drink",
-    "price": "$ 4.50",
+    "itemName": "7up Diet",
+    "price": "$ 2.00",
     "description": ""
   },
   {
     "id": 78,
     "section": "WATER & SOFT",
-    "itemName": "V Blue Energy Drink",
-    "price": "$ 4.50",
+    "itemName": "Mirinda",
+    "price": "$ 2.00",
     "description": ""
   },
   {
     "id": 79,
     "section": "WATER & SOFT",
-    "itemName": "V Sugar Free Energy Drink",
-    "price": "$ 4.50",
+    "itemName": "V Green Energy Drink",
+    "price": "$ 2.00",
     "description": ""
   },
   {
     "id": 80,
     "section": "WATER & SOFT",
-    "itemName": "Ice Tea lemon",
-    "price": "$ 3.50",
+    "itemName": "V Blue Energy Drink",
+    "price": "$ 2.00",
     "description": ""
   },
   {
     "id": 81,
     "section": "WATER & SOFT",
-    "itemName": "Ice Tea Peach",
-    "price": "$ 3.50",
+    "itemName": "V Sugar Free Energy Drink",
+    "price": "$ 2.00",
     "description": ""
   },
   {
     "id": 82,
+    "section": "WATER & SOFT",
+    "itemName": "Ice Tea lemon",
+    "price": "$ 3.00",
+    "description": ""
+  },
+  {
+    "id": 83,
+    "section": "WATER & SOFT",
+    "itemName": "Ice Tea Peach",
+    "price": "$ 3.00",
+    "description": ""
+  },
+  {
+    "id": 84,
     "section": "REFRESHERS DRINKS",
     "itemName": "Passion Pomegranate",
     "price": "$ 9.00",
     "description": ""
   },
   {
-    "id": 83,
+    "id": 85,
     "section": "REFRESHERS DRINKS",
     "itemName": "Passion Fruit",
     "price": "$ 9.00",
     "description": ""
   },
   {
-    "id": 84,
-    "section": "REFRESHERS DRINKS",
-    "itemName": "Zaatar Lemonade",
-    "price": "$ 5.00",
-    "description": ""
-  },
-  {
-    "id": 85,
-    "section": "REFRESHERS DRINKS",
-    "itemName": "Eden Drink",
-    "price": "$ 14.00",
-    "description": ""
-  },
-  {
     "id": 86,
     "section": "REFRESHERS DRINKS",
-    "itemName": "Basel Lemonade",
-    "price": "$ 5.00",
+    "itemName": "Zaatar Lemonade",
+    "price": "$ 4.00",
     "description": ""
   },
   {
     "id": 87,
     "section": "REFRESHERS DRINKS",
-    "itemName": "Eclipse Drink",
-    "price": "$ 7.50",
+    "itemName": "Eden Drink",
+    "price": "$ 11.00",
     "description": ""
   },
   {
     "id": 88,
     "section": "REFRESHERS DRINKS",
-    "itemName": "Mojito Strawberry",
-    "price": "$ 6.50",
+    "itemName": "Basel Lemonade",
+    "price": "$ 4.00",
     "description": ""
   },
   {
     "id": 89,
     "section": "REFRESHERS DRINKS",
-    "itemName": "Mojito Mango",
-    "price": "$ 6.50",
+    "itemName": "Eclipse Drink",
+    "price": "$ 6.00",
     "description": ""
   },
   {
     "id": 90,
+    "section": "REFRESHERS DRINKS",
+    "itemName": "Mojito Strawberry",
+    "price": "$ 5.50",
+    "description": ""
+  },
+  {
+    "id": 91,
+    "section": "REFRESHERS DRINKS",
+    "itemName": "Mojito Mango",
+    "price": "$ 5.50",
+    "description": ""
+  },
+  {
+    "id": 92,
     "section": "REFRESHERS DRINKS",
     "itemName": "Dragon Fruit",
     "price": "$ 10.00",
     "description": ""
   },
   {
-    "id": 91,
-    "section": "MIXOLOGY DRINKS",
-    "itemName": "Flower V Energy Drink",
-    "price": "$ 7.50",
-    "description": ""
-  },
-  {
-    "id": 92,
-    "section": "MIXOLOGY DRINKS",
-    "itemName": "Pina Colada",
-    "price": "$ 7.50",
-    "description": ""
-  },
-  {
     "id": 93,
     "section": "MIXOLOGY DRINKS",
-    "itemName": "V Energy Mix Berry Liqueur",
-    "price": "$ 7.50",
+    "itemName": "Flower V Energy Drink",
+    "price": "$ 5.50",
     "description": ""
   },
   {
     "id": 94,
     "section": "MIXOLOGY DRINKS",
-    "itemName": "V Energy Cherry Liqueur",
-    "price": "$ 7.50",
+    "itemName": "Pina Colada",
+    "price": "$ 5.50",
     "description": ""
   },
   {
     "id": 95,
     "section": "MIXOLOGY DRINKS",
-    "itemName": "Passion Pomegranate Liqueur",
-    "price": "$ 10.00",
+    "itemName": "V Energy Mix Berry Liqueur",
+    "price": "$ 5.50",
     "description": ""
   },
   {
     "id": 96,
     "section": "MIXOLOGY DRINKS",
-    "itemName": "Gin Basel",
-    "price": "$ 7.50",
-    "description": ""
-  },
-  {
-    "id": 97,
-    "section": "SMOOTHIES",
-    "itemName": "Strawberry Passion Lychee Smoothie",
-    "price": "$ 8.00",
+    "itemName": "V Energy Cherry Liqueur",
+    "price": "$ 5.50",
     "description": ""
   },
   {
     "id": 98,
-    "section": "SMOOTHIES",
-    "itemName": "Mango Smoothie",
-    "price": "$ 6.50",
+    "section": "MIXOLOGY DRINKS",
+    "itemName": "Gin Basel",
+    "price": "$ 5.50",
     "description": ""
   },
   {
     "id": 99,
     "section": "SMOOTHIES",
-    "itemName": "Peach Smoothie",
-    "price": "$ 6.50",
+    "itemName": "Strawberry Passion Lychee Smoothie",
+    "price": "$ 6.00",
     "description": ""
   },
   {
     "id": 100,
     "section": "SMOOTHIES",
-    "itemName": "Mix Berry Smoothie",
-    "price": "$ 6.50",
+    "itemName": "Mango Smoothie",
+    "price": "$ 6.00",
     "description": ""
   },
   {
     "id": 101,
     "section": "SMOOTHIES",
-    "itemName": "Strawberry Smoothie",
-    "price": "$ 6.50",
+    "itemName": "Peach Smoothie",
+    "price": "$ 6.00",
     "description": ""
   },
   {
     "id": 102,
     "section": "SMOOTHIES",
-    "itemName": "Hot Mango Smoothie",
-    "price": "$ 8.00",
+    "itemName": "Mix Berry Smoothie",
+    "price": "$ 6.00",
     "description": ""
   },
   {
     "id": 103,
+    "section": "SMOOTHIES",
+    "itemName": "Strawberry Smoothie",
+    "price": "$ 6.00",
+    "description": ""
+  },
+  {
+    "id": 104,
+    "section": "SMOOTHIES",
+    "itemName": "Hot Mango Smoothie",
+    "price": "$ 6.00",
+    "description": ""
+  },
+  {
+    "id": 105,
     "section": "APPETIZERS/ STARTERS",
     "itemName": "Smoked Salmon Bread",
     "price": "$ 8.00",
     "description": "Five french brown bread, five smoked salmon, sauce, baby rocca, lemon slice, schumer"
   },
   {
-    "id": 104,
+    "id": 106,
     "section": "APPETIZERS/ STARTERS",
     "itemName": "Truffle Fries",
     "price": "$ 8.00",
     "description": "Fries, truffle oil, parmesan cheese, sauce"
   },
   {
-    "id": 105,
+    "id": 107,
     "section": "APPETIZERS/ STARTERS",
     "itemName": "Bruschetta",
     "price": "$ 6.00",
     "description": "Five french brown bread, tomatoes, black olives, spanish basil, red onions, olive oil, balsamic vinegar, salt"
   },
   {
-    "id": 106,
+    "id": 108,
     "section": "APPETIZERS/ STARTERS",
     "itemName": "Curly Fries",
     "price": "$ 6.00",
     "description": "Curly fries, cheddar sauce"
   },
   {
-    "id": 107,
+    "id": 109,
     "section": "APPETIZERS/ STARTERS",
     "itemName": "Mozarella Sticks",
     "price": "$ 7.00",
     "description": "Mozarella, sauce"
   },
   {
-    "id": 108,
+    "id": 110,
     "section": "APPETIZERS/ STARTERS",
     "itemName": "Mini Burgers/ Silders",
     "price": "$ 11.00",
     "description": "Meat, tomatoes, onion, pickles, cheddar cheese, mushroom, chef's special sauce, mushroom sauce"
   },
   {
-    "id": 109,
+    "id": 111,
     "section": "APPETIZERS/ STARTERS",
     "itemName": "Dynamite Shrimp",
     "price": "$ 10.00",
     "description": "Five shrimp, dynamite sauce, lettuce, green onion"
   },
   {
-    "id": 110,
+    "id": 112,
     "section": "ARGUILE",
     "itemName": "Arguile Tfa7tin",
     "price": "$ 6.00",
     "description": ""
   },
   {
-    "id": 111,
+    "id": 113,
     "section": "ARGUILE",
     "itemName": "Asfahani",
     "price": "$ 7.00",
     "description": ""
   },
   {
-    "id": 112,
+    "id": 114,
     "section": "ARGUILE",
     "itemName": "Arguile Hamod W Na3na3",
     "price": "$ 6.00",
     "description": ""
   },
   {
-    "id": 113,
+    "id": 115,
     "section": "ARGUILE",
     "itemName": "Arguile 3elke W Na3na3",
     "price": "$ 6.00",
     "description": ""
   },
   {
-    "id": 114,
+    "id": 116,
     "section": "ARGUILE",
     "itemName": "Arguile 3enab W Na3na3",
     "price": "$ 6.00",
