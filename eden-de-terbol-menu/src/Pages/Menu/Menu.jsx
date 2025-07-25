@@ -41,11 +41,11 @@ const Menu = () => {
     <div className={styles.menuContainer}>
       <div className={styles.restaurantDescription}>
         <p>
-        Eden de Terbol invites guests into a culinary sanctuary where nature's bounty meets refined dining.
-         Nestled in an atmosphere of verdant tranquility, the restaurant embodies the essence of its name - a peaceful
-          grove where exceptional flavors flourish. Here, each dish is crafted as a celebration of fresh,
-           seasonal ingredients, creating an Eden-like experience that nourishes both body and soul in
-            perfect harmony with the natural world.
+        Welcome to Eden de Terbol, where culinary artistry meets the warmth of Lebanese hospitality.
+         Nestled in the heart of Terbol, our resto-café invites you to embark on a gastronomic journey
+          that celebrates both international flavors and local traditions. Each dish is thoughtfully
+           crafted using the finest ingredients, creating an oasis of taste that reflects our commitment
+            to excellence and our passion for bringing people together over exceptional food.
         </p>
       </div>
 
