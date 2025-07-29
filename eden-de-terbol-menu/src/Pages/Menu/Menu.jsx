@@ -18,8 +18,8 @@ const Menu = () => {
   const items = menuItems
   
   const sectionImages = {
-    'APPETIZERS/ STARTERS': starterImage,
     'SALADS': saladImage,
+    'APPETIZERS/ STARTERS': starterImage,
     'PIZZA': pizzaImage,
     'PASTA': pastaImage,
     'CHICKEN': beefImage,
@@ -27,6 +27,7 @@ const Menu = () => {
     'SEA FOOD': seaFoodImage,
     'SOUP': soupImage,
     'DESSERT': dessertImage,
+    'ICE CREAM': null,
     'HOT BEVERAGES': coffeeDrinkImage,
     'MILKSHAKES': null,
     'COLD COFFEE & FRAPPE': null,

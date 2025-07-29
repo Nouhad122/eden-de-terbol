@@ -8,7 +8,7 @@ import {
   GiBlender ,
   GiFullPizza,
   GiOrange,
-  GiSmokingOrb  
+  GiSmokingOrb,
 } from 'react-icons/gi'
 import { LuSalad, LuBeef  } from "react-icons/lu";
 import { TbSoupFilled, TbMilkshake  } from "react-icons/tb";
@@ -16,6 +16,7 @@ import { FaMugHot } from "react-icons/fa";
 import { SiBuymeacoffee } from "react-icons/si";
 import { RiDrinks2Fill } from "react-icons/ri";
 import { FaBottleWater } from "react-icons/fa6";
+import { IoIosIceCream } from "react-icons/io";
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md'
 import styles from './SectionsSlider.module.css'
 import sectionsData from '../../data/sections.json'
@@ -34,6 +35,7 @@ const SectionsSlider = () => {
     fish: <GiFishCooked />,
     soup: <TbSoupFilled />,
     dessert: <GiCakeSlice />,
+    iceCream: <IoIosIceCream />,
     hotDrink: <FaMugHot />,
     milkshake: <TbMilkshake />,
     coffee: <SiBuymeacoffee />,
