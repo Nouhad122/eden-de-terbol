@@ -13,6 +13,7 @@ import soupImage from '../../assets/soup.jpg'
 import coffeeDrinkImage from '../../assets/coffee-drink.jpg'
 import coldDrinkImage from '../../assets/cold-drinks.jpg'
 import beefImage from '../../assets/beef.jpg'
+import chickenImage from '../../assets/chicken.jpg'
 
 const Menu = () => {
   const items = menuItems
@@ -22,8 +23,8 @@ const Menu = () => {
     'APPETIZERS/ STARTERS': starterImage,
     'PIZZA': pizzaImage,
     'PASTA': pastaImage,
-    'CHICKEN': beefImage,
-    'BEEF': null,
+    'CHICKEN': chickenImage,
+    'BEEF': beefImage,
     'SEA FOOD': seaFoodImage,
     'SOUP': soupImage,
     'DESSERT': dessertImage,
