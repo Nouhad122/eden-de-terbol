@@ -137,7 +137,7 @@
     "section": "PASTA",
     "itemName": "Gnocchi Pesto",
     "price": "$ 11.00",
-    "description": "Gnocchi pasta, pesto sauce, mushroom sauce, parmesan cheese"
+    "description": "Gnocchi pasta, pesto sauce, white sauce, parmesan cheese"
   },
   {
     "id": 21,
@@ -221,7 +221,7 @@
     "section": "PIZZA",
     "itemName": "Eden Pizza",
     "price": "$ 13.00",
-    "description": "Tomato sauce, fresh mozzarella, grilled red peppers, basil"
+    "description": "Bolognese sauce, fresh mozzarella, grilled red peppers, basil"
   },
   {
     "id": 33,
