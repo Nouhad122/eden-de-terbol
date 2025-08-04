@@ -9,6 +9,7 @@ import {
   GiFullPizza,
   GiOrange,
   GiSmokingOrb,
+  GiAlmond,
 } from 'react-icons/gi'
 import { LuSalad, LuBeef  } from "react-icons/lu";
 import { TbSoupFilled, TbMilkshake  } from "react-icons/tb";
@@ -43,7 +44,8 @@ const SectionsSlider = () => {
     drinks: <RiDrinks2Fill />,
     blender: <GiBlender />,
     water: <FaBottleWater />,
-    smoking: <GiSmokingOrb />
+    smoking: <GiSmokingOrb />,
+    nuts: <GiAlmond />
   }
   
   const sections = sectionsData.map(section => ({

@@ -9,6 +9,7 @@
   { "name": "SEA FOOD", "iconId": "fish" },
   { "name": "DESSERT", "iconId": "dessert" },
   { "name": "ICE CREAM", "iconId": "iceCream" },
+  { "name": "Mokasarat Extra", "iconId": "nuts" },
   { "name": "HOT BEVERAGES", "iconId": "hotDrink" },
   { "name": "MILKSHAKES", "iconId": "milkshake" },
   { "name": "COLD COFFEE & FRAPPE", "iconId": "coffee" },

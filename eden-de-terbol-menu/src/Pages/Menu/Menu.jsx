@@ -29,6 +29,7 @@ const Menu = () => {
     'SOUP': soupImage,
     'DESSERT': dessertImage,
     'ICE CREAM': null,
+    'Mokasarat Extra': null,
     'HOT BEVERAGES': coffeeDrinkImage,
     'MILKSHAKES': null,
     'COLD COFFEE & FRAPPE': null,
