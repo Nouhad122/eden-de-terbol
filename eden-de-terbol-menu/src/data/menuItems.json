@@ -14,7 +14,7 @@
   {
     "section": "SALADS",
     "itemName": "Capriza Salad",
-    "price": "$ 10.00",
+    "price": "$ 11.00",
     "description": "Mozzarella fresh, pesto sauce, tomatoes, baby rocca, olive oil, salt"
   },
   {
@@ -62,7 +62,7 @@
   {
     "section": "APPETIZERS/ STARTERS",
     "itemName": "Curly Fries",
-    "price": "$ 6.00",
+    "price": "$ 7.00",
     "description": "Curly fries, cheddar sauce"
   },
   {
@@ -86,13 +86,13 @@
   {
     "section": "SOUP",
     "itemName": "Pumpkin Soup",
-    "price": "$ 7.00",
+    "price": "$ 5.00",
     "description": ""
   },
   {
     "section": "SOUP",
     "itemName": "Asparagus Soup",
-    "price": "$ 7.00",
+    "price": "$ 8.00",
     "description": ""
   },
   {
@@ -194,7 +194,7 @@
   {
     "section": "PIZZA",
     "itemName": "Shrimp Mushroom Truffle Pizza",
-    "price": "$ 15.00",
+    "price": "$ 17.00",
     "description": "Truffle sauce, mozzarella fresh, mushroom, parmesan cheese, shrimp, truffle oil"
   },
   {
@@ -218,7 +218,7 @@
   {
     "section": "PIZZA",
     "itemName": "Barbecue Chicken Pizza",
-    "price": "$ 14.00",
+    "price": "$ 15.00",
     "description": ""
   },
   {
@@ -236,7 +236,7 @@
   {
     "section": "CHICKEN",
     "itemName": "Romana Chicken",
-    "price": "$ 13.00",
+    "price": "$ 14.00",
     "description": "Breaded chicken, mixed organic salad, fries"
   },
   {
@@ -248,25 +248,25 @@
   {
     "section": "BEEF",
     "itemName": "Beef Stroganoff",
-    "price": "$ 18.00",
+    "price": "$ 22.00",
     "description": "Rice, special sauce, beef, onions, mushroom"
   },
   {
     "section": "BEEF",
     "itemName": "Australian Fillet Steak",
-    "price": "$ 35.00",
+    "price": "$ 39.00",
     "description": "Grilled vegetables, mashed potato, sauce (herb) (mushroom), steak"
   },
   {
     "section": "SEA FOOD",
     "itemName": "Salmon Fillet",
-    "price": "$ 22.00",
+    "price": "$ 24.00",
     "description": "Salmon, mashed potato, sautéed vegetables"
   },
   {
     "section": "SEA FOOD",
     "itemName": "Nile Perch Filet",
-    "price": "$ 15.00",
+    "price": "$ 17.00",
     "description": "Lemon sauce, mashed potato, asparagus, sautéed vegetables"
   },
   {
@@ -320,19 +320,25 @@
   {
     "section": "ICE CREAM",
     "itemName": "Vanilla",
-    "price": "$ 1.00",
-    "description": ""
-  },
-  {
-    "section": "ICE CREAM",
-    "itemName": "Ashta",
     "price": "$ 1.50",
     "description": ""
   },
   {
     "section": "ICE CREAM",
+    "itemName": "Ashta",
+    "price": "$ 2.00",
+    "description": ""
+  },
+  {
+    "section": "ICE CREAM",
     "itemName": "Chocolate",
-    "price": "$ 1.00",
+    "price": "$ 1.50",
+    "description": ""
+  },
+  {
+    "section": "ICE CREAM",
+    "itemName": "Strawberry",
+    "price": "$ 1.50",
     "description": ""
   },
   {
@@ -341,12 +347,7 @@
     "price": "$ 6.00",
     "description": ""
   },
-  {
-    "section": "ICE CREAM",
-    "itemName": "Strawberry",
-    "price": "$ 1.00",
-    "description": ""
-  },
+
   {
     "section": "HOT BEVERAGES",
     "itemName": "Espresso",
@@ -428,55 +429,55 @@
   {
     "section": "MILKSHAKES",
     "itemName": "Chocolate Shake",
-    "price": "$ 5.00",
+    "price": "$ 6.00",
     "description": ""
   },
   {
     "section": "MILKSHAKES",
     "itemName": "Cinnamon Lotus Shake",
-    "price": "$ 5.50",
+    "price": "$ 6.00",
     "description": ""
   },
   {
     "section": "MILKSHAKES",
     "itemName": "Strawberry Shake",
-    "price": "$ 5.00",
+    "price": "$ 6.00",
     "description": ""
   },
   {
     "section": "MILKSHAKES",
     "itemName": "Caramel Shake",
-    "price": "$ 5.00",
+    "price": "$ 6.00",
     "description": ""
   },
   {
     "section": "MILKSHAKES",
     "itemName": "Vanilla Shake",
-    "price": "$ 5.00",
+    "price": "$ 6.00",
     "description": ""
   },
   {
     "section": "MILKSHAKES",
     "itemName": "Oreo Shake",
-    "price": "$ 5.00",
+    "price": "$ 6.00",
     "description": ""
   },
   {
     "section": "COLD COFFEE & FRAPPE",
     "itemName": "White Chocolate Frappe",
-    "price": "$ 5.50",
+    "price": "$ 6.00",
     "description": ""
   },
   {
     "section": "COLD COFFEE & FRAPPE",
     "itemName": "Mocha Frappe",
-    "price": "$ 5.50",
+    "price": "$ 6.00",
     "description": ""
   },
   {
     "section": "COLD COFFEE & FRAPPE",
     "itemName": "Caramel Frappe",
-    "price": "$ 5.50",
+    "price": "$ 6.00",
     "description": ""
   },
   {
@@ -638,67 +639,67 @@
   {
     "section": "MIXOLOGY DRINKS",
     "itemName": "Flower V Energy Drink",
-    "price": "$ 5.50",
+    "price": "$ 6.00",
     "description": ""
   },
   {
     "section": "MIXOLOGY DRINKS",
     "itemName": "Pina Colada",
-    "price": "$ 5.50",
+    "price": "$ 6.00",
     "description": ""
   },
   {
     "section": "MIXOLOGY DRINKS",
     "itemName": "V Energy Mix Berry Liqueur",
-    "price": "$ 5.50",
+    "price": "$ 6.00",
     "description": ""
   },
   {
     "section": "MIXOLOGY DRINKS",
     "itemName": "V Energy Cherry Liqueur",
-    "price": "$ 5.50",
+    "price": "$ 6.00",
     "description": ""
   },
   {
     "section": "MIXOLOGY DRINKS",
     "itemName": "Gin Basel",
-    "price": "$ 5.50",
+    "price": "$ 6.00",
     "description": ""
   },
   {
     "section": "SMOOTHIES",
     "itemName": "Strawberry Passion Lychee Smoothie",
-    "price": "$ 6.00",
+    "price": "$ 7.00",
     "description": ""
   },
   {
     "section": "SMOOTHIES",
     "itemName": "Mango Smoothie",
-    "price": "$ 6.00",
+    "price": "$ 7.00",
     "description": ""
   },
   {
     "section": "SMOOTHIES",
     "itemName": "Peach Smoothie",
-    "price": "$ 6.00",
+    "price": "$ 7.00",
     "description": ""
   },
   {
     "section": "SMOOTHIES",
     "itemName": "Mix Berry Smoothie",
-    "price": "$ 6.00",
+    "price": "$ 7.00",
     "description": ""
   },
   {
     "section": "SMOOTHIES",
     "itemName": "Strawberry Smoothie",
-    "price": "$ 6.00",
+    "price": "$ 7.00",
     "description": ""
   },
   {
     "section": "SMOOTHIES",
     "itemName": "Hot Mango Smoothie",
-    "price": "$ 6.00",
+    "price": "$ 7.00",
     "description": ""
   },
   {
