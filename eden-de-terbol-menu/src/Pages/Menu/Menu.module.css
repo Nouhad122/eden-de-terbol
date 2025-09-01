@@ -126,10 +126,16 @@
   border-bottom: 1px solid rgba(212, 175, 55, 0.2);
 }
 
+.nameImageContainer{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 .itemHeader {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   margin-bottom: 0.5rem;
   position: relative;
   gap: 1rem;
@@ -191,7 +197,7 @@
   }
   
   .itemHeader {
-    align-items: flex-start;
+    align-items: center;
     gap: 0.5rem;
   }
 }
