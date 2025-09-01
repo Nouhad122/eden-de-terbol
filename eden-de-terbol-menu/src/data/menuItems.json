@@ -330,10 +330,10 @@
   },
   {
     "section": "SEA FOOD",
-    "itemName": "Japanese Crab",
-    "price": "$$",
+    "itemName": "Crab Salad",
+    "price": "$ 11.00",
     "description": "lettuce, carrot, green apple, mango, strawberry",
-    "imageId": "japaneseCrab"
+    "imageId": "crabSalad"
   },
   {
     "section": "DESSERT",
