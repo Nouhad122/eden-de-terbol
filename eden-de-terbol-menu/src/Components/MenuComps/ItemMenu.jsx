@@ -3,7 +3,7 @@ import styles from '../../Pages/Menu/Menu.module.css'
 import { Image } from 'antd'
 import { getImageByImageId } from '../../assets/imageMapping'
 
-const MenuItem = ({ item }) => {
+const ItemMenu = ({ item }) => {
   const [isVisible, setIsVisible] = useState(false)
   const [imageLoaded, setImageLoaded] = useState(false)
   const itemRef = useRef(null)
@@ -62,4 +62,4 @@ const MenuItem = ({ item }) => {
   )
 }
 
-export default MenuItem
+export default ItemMenu

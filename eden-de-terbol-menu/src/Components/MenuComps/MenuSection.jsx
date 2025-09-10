@@ -1,8 +1,7 @@
 import React from 'react'
-import MenuItem from './MenuItem'
+import ItemMenu from './ItemMenu'
 import styles from '../../Pages/Menu/Menu.module.css'
 import { v4 as uuidv4 } from 'uuid'
-import MenuItem from './MenuItem'
 
 const MenuSection = ({ sectionTitle, items, id }) => {
   return (
@@ -10,7 +9,7 @@ const MenuSection = ({ sectionTitle, items, id }) => {
         <h2 className={styles.sectionTitle}>{sectionTitle}</h2>
         {
             items.map(item => (
-                <MenuItem key={uuidv4()} item={item}/>
+                <ItemMenu key={uuidv4()} item={item}/>
             ))
         }
     </div>
