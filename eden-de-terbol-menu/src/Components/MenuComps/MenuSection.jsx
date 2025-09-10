@@ -2,6 +2,7 @@ import React from 'react'
 import MenuItem from './MenuItem'
 import styles from '../../Pages/Menu/Menu.module.css'
 import { v4 as uuidv4 } from 'uuid'
+import MenuItem from './MenuItem'
 
 const MenuSection = ({ sectionTitle, items, id }) => {
   return (
