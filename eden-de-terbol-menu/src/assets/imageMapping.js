@@ -18,7 +18,6 @@ import lasagna from './items/Lasagna.jpg'
 import gnocchiPesto from './items/Gnocchi Pesto.jpg'
 import truffleMushroom from './items/Truffle Mushroom.jpg'
 import lemonSalmonSpaghetti from './items/lemon salmon spagetti.jpg'
-import bocconciniPasta from './items/Bocconcini Pasta.jpg'
 import margueritaPizza from './items/Marguerita pizza.jpg'
 import edenPizza from './items/eden pizza.jpg'
 import burrataPizza from './items/buratta pizza.jpg'
@@ -41,8 +40,19 @@ import strawberryPannaCotta from './items/Strawberry Panna Cotta.jpg'
 import caramelPannaCotta from './items/Caramel Panna Cotta.jpg'
 import edenCrepe from './items/eden crepe.jpg'
 import painPerdu from './items/Pain perdu.jpg'
-import spaghettiBolognese from './items/spaghetti bolognese.jpg'
+import spaghettiBolognese from './items/spagetti bolognese.jpg'
 import tagliatelleAlfredo from './items/tagliatelle alfredo.jpg'
+import quinoaSalad from './items/quinoa salad.jpg'
+import crabSalad from './items/Crab Salad.jpg'
+import creamShrimpPenne from './items/cream shrimp penne.jpg'
+import penneArabiata from './items/penne arabiata.jpg'
+import burgerPizza from './items/Burger Pizza.jpg'
+import shrimpMushroomTrufflePizza from './items/Shrimp Mushroom Truffle Pizza.jpg'
+import barbecueChickenPizza from './items/Barbecue Chicken Pizza.jpg'
+import meatLoversPizza from './items/Meat Lovers Pizza.jpg'
+import brazilianFilletSteak from './items/brazilian steak.jpg'
+import meringueMixedBerries from './items/Meringue Mixed Berries.jpg'
+import bocconciniPasta from './items/Boconcini pasta.jpg'
 
 export const imageMapping = {
   kaleSalad,
@@ -89,7 +99,17 @@ export const imageMapping = {
   strawberryPannaCotta,
   caramelPannaCotta,
   edenCrepe,
-  painPerdu
+  painPerdu,
+  quinoaSalad,
+  crabSalad,
+  creamShrimpPenne,
+  penneArabiata,
+  burgerPizza,
+  shrimpMushroomTrufflePizza,
+  barbecueChickenPizza,
+  meatLoversPizza,
+  brazilianFilletSteak,
+  meringueMixedBerries,
 }
 
 export const getImageByImageId = (imageId) => {

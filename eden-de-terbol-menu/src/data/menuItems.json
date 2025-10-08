@@ -17,7 +17,7 @@
     "section": "SALADS",
     "itemName": "Capriza Salad",
     "price": "$ 11.00",
-    "description": "Mozzarella fresh, pesto sauce, tomatoes, baby rocca, olive oil, salt",
+    "description": "fresh moz, pesto sauce, tomatoes, baby rocca, olive oil, salt",
     "imageId": "caprizaSalad"
   },
   {
@@ -85,9 +85,9 @@
   },
   {
     "section": "APPETIZERS/ STARTERS",
-    "itemName": "Mozarella Sticks",
+    "itemName": "Mozzarella Sticks",
     "price": "$ 7.00",
-    "description": "Mozarella, sauce",
+    "description": "Mozzarella, sauce",
     "imageId": "mozzarellaSticks"
   },
   {
@@ -185,21 +185,21 @@
     "section": "PASTA",
     "itemName": "Bocconcini Pasta",
     "price": "$ 10.00",
-    "description": "Spaghetti, red sauce, mozzarella fresh, parmesan cheese, fried eggplant, spanish basil",
+    "description": "Spaghetti, red sauce, fresh moz, parmesan cheese, fried eggplant, spanish basil",
     "imageId": "bocconciniPasta"
   },
   {
     "section": "PIZZA",
     "itemName": "Marguerita Pizza",
     "price": "$ 12.00",
-    "description": "",
+    "description": "Pizza sauce, fresh moz, basel, parmesan cheese",
     "imageId": "margueritaPizza"
   },
   {
     "section": "PIZZA",
     "itemName": "Burger Pizza",
     "price": "$ 15.00",
-    "description": "",
+    "description": "Mustard, ketchup, mix cheese, meat, pickles",
     "imageId": "burgerPizza"
   },
   {
@@ -213,7 +213,7 @@
     "section": "PIZZA",
     "itemName": "Mexican Pizza",
     "price": "$ 13.00",
-    "description": "Tomato sauce, chicken, cheddar cheese, nachos",
+    "description": "Tomato sauce, chicken, mix cheese (cheddar, mozzarella), nachos",
     "imageId": "mexicanPizza"
   },
   {
@@ -234,42 +234,42 @@
     "section": "PIZZA",
     "itemName": "Shrimp Mushroom Truffle Pizza",
     "price": "$ 17.00",
-    "description": "Truffle sauce, mozzarella fresh, mushroom, parmesan cheese, shrimp, truffle oil",
+    "description": "Truffle sauce, mushroom, parmesan cheese, shrimp, truffle oil",
     "imageId": "shrimpMushroomTrufflePizza"
   },
   {
     "section": "PIZZA",
     "itemName": "Chicken Mushroom Truffle Pizza",
     "price": "$ 15.00",
-    "description": "Truffle sauce, fresh mozzarella, mushroom, parmesan, chicken, truffle oil",
+    "description": "Truffle sauce, mushroom, parmesan, chicken, truffle oil",
     "imageId": "chickenMushroomTrufflePizza"
   },
   {
     "section": "PIZZA",
     "itemName": "Pepperoni Pizza",
     "price": "$ 13.00",
-    "description": "Tomato sauce, mozzarella fresh, beef pepperoni",
+    "description": "Tomato sauce, fresh moz, beef pepperoni, mushrooms",
     "imageId": "pepperoniPizza"
   },
   {
     "section": "PIZZA",
     "itemName": "Vegetarian Pizza",
     "price": "$ 13.00",
-    "description": "Tomato sauce, mozzarella fresh, mushroom, white onion, colorful peppers, black olives, cherry tomatoes",
+    "description": "Tomato sauce, fresh moz, mushroom, white onion, colorful peppers, black olives, cherry tomatoes",
     "imageId": "vegetarianPizza"
   },
   {
     "section": "PIZZA",
     "itemName": "Barbecue Chicken Pizza",
     "price": "$ 15.00",
-    "description": "",
+    "description": "Chiken, pineapple, barbecue sauce, fresh mozzarella, red onions",
     "imageId": "barbecueChickenPizza"
   },
   {
     "section": "PIZZA",
     "itemName": "Meat Lovers Pizza",
     "price": "$ 18.00",
-    "description": "",
+    "description": "Peperoni, basterma, meat, fresh moz, honey sauce",
     "imageId": "meatLoversPizza"
   },
   {
