@@ -52,7 +52,7 @@ import barbecueChickenPizza from './items/Barbecue Chicken Pizza.jpg'
 import meatLoversPizza from './items/Meat Lovers Pizza.jpg'
 import brazilianFilletSteak from './items/brazilian steak.jpg'
 import meringueMixedBerries from './items/Meringue Mixed Berries.jpg'
-import bocconciniPasta from './items/Boconcini pasta.jpg'
+import bocconciniPasta from './items/boconcini pasta.jpg'
 
 export const imageMapping = {
   kaleSalad,
