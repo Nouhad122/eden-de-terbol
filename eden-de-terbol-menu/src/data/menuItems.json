@@ -56,6 +56,13 @@
 "imageId": "crabSalad"  
 },  
 {  
+"section": "SALADS",  
+"itemName": "Shrimp Caesar Salad",  
+"price": "$ 12.00",  
+"description": "Lettuce, croutons, shrimp, sauce, parmesan cheese, avocado",  
+"imageId": "shrimpCaesarSalad"  
+},  
+{  
 "section": "APPETIZERS/ STARTERS",  
 "itemName": "Smoked Salmon Bread",  
 "price": "$ 10.00",  
@@ -103,6 +110,13 @@
 "price": "$ 10.00",  
 "description": "Five shrimp, dynamite sauce, lettuce, green onion",  
 "imageId": "dynamiteShrimp"  
+},
+{  
+"section": "APPETIZERS/ STARTERS",  
+"itemName": "Dynamite Salmon",  
+"price": "$ 12.00",  
+"description": "Salmon fillet , dynamite sauce , green onion , lettuce",  
+"imageId": "dynamiteSalmon"  
 },  
 {  
 "section": "SOUP",  
@@ -187,7 +201,21 @@
 "price": "$ 10.00",  
 "description": "Spaghetti, red sauce, fresh moz, parmesan cheese, fried eggplant, spanish basil",  
 "imageId": "bocconciniPasta"  
-},  
+},
+{  
+"section": "PASTA",  
+"itemName": "Spaghetti Aglio e olio",  
+"price": "$ 12.00",  
+"description": "Spaghetti, black olive, garlic, parmesan cheese, basil, oilve oil",  
+"imageId": "spaghettiAglioEolio"  
+},
+{  
+"section": "PASTA",  
+"itemName": "Canneloni Spinach Pasta",  
+"price": "$ 10.00",  
+"description": "Cannelloni pasta, red sauce, spinach, ricotta cheese",  
+"imageId": "cannelloniSpinachPasta"  
+},
 {  
 "section": "PIZZA",  
 "itemName": "Marguerita Pizza",  
@@ -315,17 +343,24 @@
 "imageId": "australianFilletSteak"  
 },  
 {  
+"section": "BEEF",  
+"itemName": "Australian Entrecote Steak",  
+"price": "$ 45.00",  
+"description": "Steak entrecote Angus, grilled vegetables, butter potatoe, sauce ( herb ) ( mushroom ) ",  
+"imageId": "australianEntrecoteSteak"  
+},
+{  
 "section": "SEA FOOD",  
 "itemName": "Salmon Fillet",  
 "price": "$ 24.00",  
-"description": "Salmon, mashed potato, sautÃ©ed vegetables",  
+"description": "Salmon, mashed potato, sautéed vegetables",  
 "imageId": "salmonFillet"  
 },  
 {  
 "section": "SEA FOOD",  
 "itemName": "Nile Perch Filet",  
 "price": "$ 17.00",  
-"description": "Lemon sauce, mashed potato, asparagus, sautÃ©ed vegetables",  
+"description": "Lemon sauce, mashed potato, asparagus, sautéed vegetables",  
 "imageId": "nilePerchFilet"  
 },  
 {  
@@ -334,7 +369,14 @@
 "price": "$ 14.00",  
 "description": "Arborio rice, special sauce shrimp",  
 "imageId": "seafoodRisotto"  
-},  
+},
+{  
+"section": "SEA FOOD",  
+"itemName": "Shrimp Tom Yum",  
+"price": "$ 18.00",  
+"description": "Cream fresh, milk, oyster mushroom, tom yam sauce, rice, green coriander",  
+"imageId": "shrimpTomYum"  
+},
 {  
 "section": "DESSERT",  
 "itemName": "Eden Cheese Cake",  

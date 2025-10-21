@@ -53,6 +53,12 @@ import meatLoversPizza from './items/Meat Lovers Pizza.jpg'
 import brazilianFilletSteak from './items/brazilian steak.jpg'
 import meringueMixedBerries from './items/Meringue Mixed Berries.jpg'
 import bocconciniPasta from './items/boconcini pasta.jpg'
+import shrimpTomYum from './items/Shrimp Tom Yum.jpg'
+import spaghettiAglioEolio from './items/Spaghetti Aglio e olio.jpg'
+import shrimpCaesarSalad from './items/Shrimp Caesar Salad.jpg'
+import dynamiteSalmon from './items/Dynamite Salmon.jpg'
+import cannelloniSpinachPasta from './items/Cannelloni Spinach Pasta.jpg'
+import australianEntrecoteSteak from './items/Australian entrecote steak.jpg'
 
 export const imageMapping = {
   kaleSalad,
@@ -110,6 +116,12 @@ export const imageMapping = {
   meatLoversPizza,
   brazilianFilletSteak,
   meringueMixedBerries,
+  shrimpTomYum,
+  spaghettiAglioEolio,
+  shrimpCaesarSalad,
+  dynamiteSalmon,
+  cannelloniSpinachPasta,
+  australianEntrecoteSteak,
 }
 
 export const getImageByImageId = (imageId) => {
