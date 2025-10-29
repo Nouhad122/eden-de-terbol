@@ -1,4 +1,11 @@
-[  
+[ 
+{  
+"section": "SALADS",  
+"itemName": "Shrimp Caesar Salad",  
+"price": "$ 12.00",  
+"description": "Lettuce, croutons, shrimp, sauce, parmesan cheese, avocado",  
+"imageId": "shrimpCaesarSalad"  
+},  
 {  
 "section": "SALADS",  
 "itemName": "Quinoa Salad",  
@@ -54,21 +61,21 @@
 "price": "$ 12.00",  
 "description": "lettuce, carrot, green apple, mango, strawberry",  
 "imageId": "crabSalad"  
-},  
-{  
-"section": "SALADS",  
-"itemName": "Shrimp Caesar Salad",  
-"price": "$ 12.00",  
-"description": "Lettuce, croutons, shrimp, sauce, parmesan cheese, avocado",  
-"imageId": "shrimpCaesarSalad"  
-},  
+},   
 {  
 "section": "APPETIZERS/ STARTERS",  
 "itemName": "Cheese Garlic Bread",  
 "price": "$ 5.00",  
-"description": "",  
+"description": "Parsley, mozzarella, garlic, baguette",  
 "imageId": "cheeseGarlicBread"  
 },  
+{  
+"section": "APPETIZERS/ STARTERS",  
+"itemName": "Dynamite Salmon",  
+"price": "$ 12.00",  
+"description": "Salmon fillet , dynamite sauce , green onion , lettuce",  
+"imageId": "dynamiteSalmon"  
+},
 {  
 "section": "APPETIZERS/ STARTERS",  
 "itemName": "Smoked Salmon Bread",  
@@ -117,13 +124,6 @@
 "price": "$ 10.00",  
 "description": "Five shrimp, dynamite sauce, lettuce, green onion",  
 "imageId": "dynamiteShrimp"  
-},
-{  
-"section": "APPETIZERS/ STARTERS",  
-"itemName": "Dynamite Salmon",  
-"price": "$ 12.00",  
-"description": "Salmon fillet , dynamite sauce , green onion , lettuce",  
-"imageId": "dynamiteSalmon"  
 },  
 {  
 "section": "SOUP",  
@@ -138,7 +138,21 @@
 "price": "$ 8.00",  
 "description": "",  
 "imageId": "asparagusSoup"  
-},  
+}, 
+{  
+"section": "PASTA",  
+"itemName": "Canneloni Spinach Pasta",  
+"price": "$ 10.00",  
+"description": "Cannelloni pasta, red sauce, spinach, ricotta cheese",  
+"imageId": "cannelloniSpinachPasta"  
+}, 
+{  
+"section": "PASTA",  
+"itemName": "Spaghetti Aglio e olio",  
+"price": "$ 8.00",  
+"description": "Spaghetti, black olive, garlic, parmesan cheese, basil, oilve oil",  
+"imageId": "spaghettiAglioEolio"  
+},
 {  
 "section": "PASTA",  
 "itemName": "Chef Special",  
@@ -208,20 +222,6 @@
 "price": "$ 10.00",  
 "description": "Spaghetti, red sauce, fresh moz, parmesan cheese, fried eggplant, spanish basil",  
 "imageId": "bocconciniPasta"  
-},
-{  
-"section": "PASTA",  
-"itemName": "Spaghetti Aglio e olio",  
-"price": "$ 8.00",  
-"description": "Spaghetti, black olive, garlic, parmesan cheese, basil, oilve oil",  
-"imageId": "spaghettiAglioEolio"  
-},
-{  
-"section": "PASTA",  
-"itemName": "Canneloni Spinach Pasta",  
-"price": "$ 10.00",  
-"description": "Cannelloni pasta, red sauce, spinach, ricotta cheese",  
-"imageId": "cannelloniSpinachPasta"  
 },
 {  
 "section": "PIZZA",  
@@ -355,7 +355,14 @@
 "price": "$ 41.00",  
 "description": "Grilled vegetables, mashed potato, sauce (herb) (mushroom), steak",  
 "imageId": "australianFilletSteak"  
-},  
+}, 
+{  
+"section": "SEA FOOD",  
+"itemName": "Shrimp Tom Yum",  
+"price": "$ 18.00",  
+"description": "Cream fresh, milk, oyster mushroom, tom yam sauce, rice, green coriander",  
+"imageId": "shrimpTomYum"  
+}, 
 {  
 "section": "SEA FOOD",  
 "itemName": "Salmon Fillet",  
@@ -376,13 +383,6 @@
 "price": "$ 14.00",  
 "description": "Arborio rice, special sauce shrimp",  
 "imageId": "seafoodRisotto"  
-},
-{  
-"section": "SEA FOOD",  
-"itemName": "Shrimp Tom Yum",  
-"price": "$ 18.00",  
-"description": "Cream fresh, milk, oyster mushroom, tom yam sauce, rice, green coriander",  
-"imageId": "shrimpTomYum"  
 },
 {  
 "section": "DESSERT",  
