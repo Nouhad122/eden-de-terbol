@@ -22,10 +22,10 @@
 },  
 {  
 "section": "SALADS",  
-"itemName": "Burata Salad",  
+"itemName": "Burrata Salad",  
 "price": "$ 15.00",  
-"description": "Wild rocca, caramelised apples, balsamic sauce, olive oil, burata, cherry tomatoes",  
-"imageId": "burataSalad"  
+"description": "Wild rocca, caramelised apples, balsamic sauce, olive oil, burrata, cherry tomatoes",  
+"imageId": "burrataSalad"  
 },  
 {  
 "section": "SALADS",  
@@ -64,9 +64,16 @@
 },  
 {  
 "section": "APPETIZERS/ STARTERS",  
+"itemName": "Cheese Garlic Bread",  
+"price": "$ 5.00",  
+"description": "",  
+"imageId": "cheeseGarlicBread"  
+},  
+{  
+"section": "APPETIZERS/ STARTERS",  
 "itemName": "Smoked Salmon Bread",  
 "price": "$ 10.00",  
-"description": "Five french brown bread, five smoked salmon, sauce, baby rocca, lemon slice, schumer",  
+"description": "Four french brown bread, five smoked salmon, sauce, baby rocca, lemon slice, schumer",  
 "imageId": "smokedSalmonBread"  
 },  
 {  
@@ -323,6 +330,13 @@
 },  
 {  
 "section": "BEEF",  
+"itemName": "Australian Entrecote Steak",  
+"price": "$ 45.00",  
+"description": "Steak entrecote Angus, grilled vegetables, butter potatoe, sauce ( herb ) ( mushroom ) ",  
+"imageId": "australianEntrecoteSteak"  
+},
+{  
+"section": "BEEF",  
 "itemName": "Beef Stroganoff",  
 "price": "$ 22.00",  
 "description": "Rice, special sauce, beef, onions, mushroom",  
@@ -342,13 +356,6 @@
 "description": "Grilled vegetables, mashed potato, sauce (herb) (mushroom), steak",  
 "imageId": "australianFilletSteak"  
 },  
-{  
-"section": "BEEF",  
-"itemName": "Australian Entrecote Steak",  
-"price": "$ 45.00",  
-"description": "Steak entrecote Angus, grilled vegetables, butter potatoe, sauce ( herb ) ( mushroom ) ",  
-"imageId": "australianEntrecoteSteak"  
-},
 {  
 "section": "SEA FOOD",  
 "itemName": "Salmon Fillet",  
@@ -484,7 +491,7 @@
 },  
 {  
 "section": "HOT BEVERAGES",  
-"itemName": "CaffÃ© latte",  
+"itemName": "Caffe Latte",  
 "price": "$3.50",  
 "description": "",  
 "imageId": "caffeLatte"  

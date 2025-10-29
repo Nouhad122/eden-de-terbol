@@ -1,6 +1,6 @@
 import kaleSalad from './items/kale salad.jpg'
 import caprizaSalad from './items/capriza salad.jpg'
-import burataSalad from './items/burata salad.jpg'
+import burrataSalad from './items/burata salad.jpg'
 import caesarSalad from './items/ceaser salad.jpg'
 import edenSalad from './items/eden salad.jpg'
 import mediterraneanSalad from './items/mediterranean salad.jpg'
@@ -63,7 +63,7 @@ import australianEntrecoteSteak from './items/Australian entrecote steak.jpg'
 export const imageMapping = {
   kaleSalad,
   caprizaSalad,
-  burataSalad,
+  burrataSalad,
   caesarSalad,
   edenSalad,
   mediterraneanHalloumiSalad: mediterraneanSalad,
