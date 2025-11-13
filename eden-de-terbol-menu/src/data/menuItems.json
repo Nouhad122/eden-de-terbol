@@ -10,7 +10,7 @@
 "section": "SALADS",  
 "itemName": "Quinoa Salad",  
 "price": "$ 9.00",  
-"description": "Rocca, green onions, persil, red beans, quinoa, cashew, sauce",  
+"description": "Cheese ball, rocca, green onions, parsley, red beans, quinoa, cashew, sauce",  
 "imageId": "quinoaSalad"  
 },  
 {  
@@ -164,7 +164,7 @@
 "section": "PASTA",  
 "itemName": "Spaghetti Bolognese",  
 "price": "$ 10.00",  
-"description": "Spaghetti, bolognese sauce, parmesan sauce, salmon",  
+"description": "Spaghetti, bolognese sauce, parmesan sauce",  
 "imageId": "spaghettiBolognese"  
 },  
 {  
@@ -346,7 +346,7 @@
 "section": "BEEF",  
 "itemName": "Brazilian Fillet Steak",  
 "price": "$ 25.00",  
-"description": "",  
+"description": "Grilled vegetables, mashed potato, sauce (herb) (mushroom), steak",  
 "imageId": "brazilianFilletSteak"  
 },  
 {  
