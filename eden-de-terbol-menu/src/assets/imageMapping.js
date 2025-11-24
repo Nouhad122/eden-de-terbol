@@ -32,7 +32,6 @@ import grilledChicken from './items/Grilled Chicken.jpg'
 import beefStroganoff from './items/Beef Stroganoff.jpg'
 import australianFilletSteak from './items/Australian fillrt steak.jpg'
 import salmonFillet from './items/Salmon fillet.jpg'
-import nilePerchFilet from './items/Nile perch filet.jpg'
 import risotto from './items/Risotto.jpg'
 import edenCheeseCake from './items/Eden cheese cake.jpg'
 import tiramisu from './items/Tiramisu.jpg'
@@ -98,7 +97,6 @@ export const imageMapping = {
   beefStroganoff,
   australianFilletSteak,
   salmonFillet,
-  nilePerchFilet,
   seafoodRisotto: risotto,
   edenCheeseCake,
   tiramisu,

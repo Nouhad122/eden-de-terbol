@@ -369,14 +369,7 @@
 "price": "$ 24.00",  
 "description": "Salmon, mashed potato, sautéed vegetables",  
 "imageId": "salmonFillet"  
-},  
-{  
-"section": "SEA FOOD",  
-"itemName": "Nile Perch Filet",  
-"price": "$ 17.00",  
-"description": "Lemon sauce, mashed potato, asparagus, sautéed vegetables",  
-"imageId": "nilePerchFilet"  
-},  
+}, 
 {  
 "section": "SEA FOOD",  
 "itemName": "Risotto",  
