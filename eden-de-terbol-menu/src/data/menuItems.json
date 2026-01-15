@@ -224,6 +224,13 @@
 "imageId": "bocconciniPasta"  
 },
 {  
+"section": "PASTA",  
+"itemName": "Spaghetti con Filetto di Manzo Australiano",  
+"price": "$ 18.00",  
+"description": "Spaghetti pasta, Australian beef fillet, herb sauce, Parmesan cheese",  
+"imageId": "spaghettiConFiletto"  
+},
+{  
 "section": "PIZZA",  
 "itemName": "Marguerita Pizza",  
 "price": "$ 12.00",  
@@ -329,6 +336,13 @@
 "imageId": "grilledChicken"  
 },  
 {  
+"section": "CHICKEN",  
+"itemName": "Chicken Lemon",  
+"price": "$ 13.00",  
+"description": "Chicken, butter, salt, olive oil, flour, black pepper, sautéed vegetables, fried potatoes, lemon sauce",  
+"imageId": "chickenLemon"  
+}, 
+{  
 "section": "BEEF",  
 "itemName": "Australian Entrecote Steak",  
 "price": "$ 45.00",  
@@ -349,6 +363,13 @@
 "description": "Grilled vegetables, mashed potato, sauce (herb) (mushroom), steak",  
 "imageId": "brazilianFilletSteak"  
 },  
+{  
+"section": "BEEF",  
+"itemName": "Panino di Filetto di Manzo Australiano",  
+"price": "$ 17.00",  
+"description": " Green bell peppers, red bell peppers, mushrooms, Australian beef fillet, white ciabatta bread, cheddar sauce, chef’s sauce, mayonnaise",  
+"imageId": "paninoDiFiletto"  
+},
 {  
 "section": "BEEF",  
 "itemName": "Australian Fillet Steak",  
