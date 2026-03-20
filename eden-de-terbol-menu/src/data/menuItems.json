@@ -2,126 +2,126 @@
 {  
 "section": "SALADS",  
 "itemName": "Shrimp Caesar Salad",  
-"price": "$ 12.00",  
+"price": "$ 15.00",  
 "description": "Lettuce, croutons, shrimp, sauce, parmesan cheese, avocado",  
 "imageId": "shrimpCaesarSalad"  
 },  
 {  
 "section": "SALADS",  
 "itemName": "Quinoa Salad",  
-"price": "$ 9.00",  
+"price": "$ 12.00",  
 "description": "Cheese ball, rocca, green onions, parsley, red beans, quinoa, cashew, sauce",  
 "imageId": "quinoaSalad"  
 },  
 {  
 "section": "SALADS",  
 "itemName": "Kale Salad",  
-"price": "$ 9.00",  
+"price": "$ 10.00",  
 "description": "Kale, shredded carrots, red cabbage, sauce, pumpkin seeds, roasted sesame, edamame, pamelo",  
 "imageId": "kaleSalad"  
 },  
 {  
 "section": "SALADS",  
 "itemName": "Capriza Salad",  
-"price": "$ 11.00",  
+"price": "$ 13.00",  
 "description": "fresh moz, pesto sauce, tomatoes, baby rocca, olive oil, salt",  
 "imageId": "caprizaSalad"  
 },  
 {  
 "section": "SALADS",  
 "itemName": "Burrata Salad",  
-"price": "$ 15.00",  
+"price": "$ 20.00",  
 "description": "Wild rocca, caramelised apples, balsamic sauce, olive oil, burrata, cherry tomatoes",  
 "imageId": "burrataSalad"  
 },  
 {  
 "section": "SALADS",  
-"itemName": "Caesar Salad",  
-"price": "$ 10.00",  
+"itemName": "Chicken Caesar Salad",  
+"price": "$ 12.00",  
 "description": "Lettuce, croutons, sauce, grilled chicken, parmesan cheese",  
 "imageId": "caesarSalad"  
 },  
 {  
 "section": "SALADS",  
 "itemName": "Eden Salad",  
-"price": "$ 12.00",  
+"price": "$ 15.00",  
 "description": "Kale, rocca, spinach, sauce, apples, dried cherries, parmesan cheese, strawberries, mango, roasted hazelnut",  
 "imageId": "edenSalad"  
 },  
 {  
 "section": "SALADS",  
 "itemName": "Mediterranean Halloumi Salad",  
-"price": "$ 9.00",  
+"price": "$ 11.00",  
 "description": "Tomatoes, green pepper, red pepper, cucumbers, red onions, black olives, oregano, olive oil, balsamic vinegar, croutons, salt, grilled halloumi cheese",  
 "imageId": "mediterraneanHalloumiSalad"  
 },  
 {  
 "section": "SALADS",  
 "itemName": "Crab Salad",  
-"price": "$ 12.00",  
+"price": "$ 15.00",  
 "description": "lettuce, carrot, green apple, mango, strawberry",  
 "imageId": "crabSalad"  
 },   
 {  
 "section": "APPETIZERS/ STARTERS",  
 "itemName": "Cheese Garlic Bread",  
-"price": "$ 5.00",  
+"price": "$ 7.00",  
 "description": "Parsley, mozzarella, garlic, baguette",  
 "imageId": "cheeseGarlicBread"  
 },  
 {  
 "section": "APPETIZERS/ STARTERS",  
 "itemName": "Dynamite Salmon",  
-"price": "$ 12.00",  
+"price": "$ 14.00",  
 "description": "Salmon fillet , dynamite sauce , green onion , lettuce",  
 "imageId": "dynamiteSalmon"  
 },
 {  
 "section": "APPETIZERS/ STARTERS",  
 "itemName": "Smoked Salmon Bread",  
-"price": "$ 10.00",  
+"price": "$ 12.00",  
 "description": "Four french brown bread, five smoked salmon, sauce, baby rocca, lemon slice, schumer",  
 "imageId": "smokedSalmonBread"  
 },  
 {  
 "section": "APPETIZERS/ STARTERS",  
 "itemName": "Truffle Fries",  
-"price": "$ 8.00",  
+"price": "$ 10.00",  
 "description": "Fries, truffle oil, parmesan cheese, sauce",  
 "imageId": "truffleFries"  
 },  
 {  
 "section": "APPETIZERS/ STARTERS",  
 "itemName": "Bruschetta",  
-"price": "$ 6.00",  
+"price": "$ 7.00",  
 "description": "Three french brown bread, tomatoes, black olives, spanish basil, red onions, olive oil, balsamic vinegar, salt",  
 "imageId": "bruschetta"  
 },  
 {  
 "section": "APPETIZERS/ STARTERS",  
 "itemName": "Curly Fries",  
-"price": "$ 7.00",  
+"price": "$ 8.00",  
 "description": "Curly fries, cheddar sauce",  
 "imageId": "curlyFries"  
 },  
 {  
 "section": "APPETIZERS/ STARTERS",  
 "itemName": "Mozzarella Sticks",  
-"price": "$ 7.00",  
+"price": "$ 8.00",  
 "description": "Mozzarella, sauce",  
 "imageId": "mozzarellaSticks"  
 },  
 {  
 "section": "APPETIZERS/ STARTERS",  
 "itemName": "Mini Burgers/ Sliders",  
-"price": "$ 11.00",  
+"price": "$ 14.00",  
 "description": "Meat, tomatoes, onion, pickles, cheddar cheese, mushroom, chef's special sauce, mushroom sauce",  
 "imageId": "miniBurgersSilders"  
 },  
 {  
 "section": "APPETIZERS/ STARTERS",  
 "itemName": "Dynamite Shrimp",  
-"price": "$ 10.00",  
+"price": "$ 12.00",  
 "description": "Five shrimp, dynamite sauce, lettuce, green onion",  
 "imageId": "dynamiteShrimp"  
 },  
@@ -142,336 +142,336 @@
 {  
 "section": "PASTA",  
 "itemName": "Canneloni Spinach Pasta",  
-"price": "$ 10.00",  
+"price": "$ 12.00",  
 "description": "Cannelloni pasta, red sauce, spinach, ricotta cheese",  
 "imageId": "cannelloniSpinachPasta"  
 }, 
 {  
 "section": "PASTA",  
 "itemName": "Spaghetti Aglio e olio",  
-"price": "$ 8.00",  
+"price": "$ 10.00",  
 "description": "Spaghetti, black olive, garlic, parmesan cheese, basil, oilve oil",  
 "imageId": "spaghettiAglioEolio"  
 },
 {  
 "section": "PASTA",  
 "itemName": "Chef Special",  
-"price": "$ 12.00",  
+"price": "$ 14.00",  
 "description": "Pasta rigatoni, mushroom 3 ways, parmesan cheese, fried onion, fried kale",  
 "imageId": "chefSpecialPasta"  
 },  
 {  
 "section": "PASTA",  
 "itemName": "Spaghetti Bolognese",  
-"price": "$ 10.00",  
+"price": "$ 12.00",  
 "description": "Spaghetti, bolognese sauce, parmesan sauce",  
 "imageId": "spaghettiBolognese"  
 },  
 {  
 "section": "PASTA",  
 "itemName": "Lasagna",  
-"price": "$ 12.00",  
+"price": "$ 14.00",  
 "description": "Pasta lasagna, bolognese sauce, mushroom sauce, fresh mozzarella, parmesan cheese, basil",  
 "imageId": "lasagna"  
 },  
 {  
 "section": "PASTA",  
 "itemName": "Gnocchi Pesto",  
-"price": "$ 11.00",  
+"price": "$ 13.00",  
 "description": "Gnocchi pasta, pesto sauce, white sauce, parmesan cheese",  
 "imageId": "gnocchiPesto"  
 },  
 {  
 "section": "PASTA",  
 "itemName": "Tagliatelle Alfredo",  
-"price": "$ 12.00",  
+"price": "$ 15.00",  
 "description": "Tagliatelle pasta, mushroom, chicken, parmesan cheese, white sauce",  
 "imageId": "tagliatelleAlfredo"  
 },  
 {  
 "section": "PASTA",  
 "itemName": "Truffle Mushroom",  
-"price": "$ 13.00",  
+"price": "$ 15.00",  
 "description": "Tagliatelle pasta, mushroom, truffle oil, parmesan cheese, white sauce",  
 "imageId": "truffleMushroom"  
 },  
 {  
 "section": "PASTA",  
 "itemName": "Cream Shrimp Penne",  
-"price": "$ 14.00",  
+"price": "$ 16.00",  
 "description": "Penne pasta, white sauce, shrimp five pieces, parmesan cheese",  
 "imageId": "creamShrimpPenne"  
 },  
 {  
 "section": "PASTA",  
 "itemName": "Lemon Salmon Spaghetti",  
-"price": "$ 13.00",  
+"price": "$ 15.00",  
 "description": "Spaghetti, white sauce, smoked salmon, parmesan",  
 "imageId": "lemonSalmonSpaghetti"  
 },  
 {  
 "section": "PASTA",  
 "itemName": "Penne Arabiata",  
-"price": "$ 10.00",  
+"price": "$ 12.00",  
 "description": "Penne pasta, red sauce, parmesan cheese, black olives, medium spicy",  
 "imageId": "penneArabiata"  
 },  
 {  
 "section": "PASTA",  
 "itemName": "Bocconcini Pasta",  
-"price": "$ 10.00",  
+"price": "$ 12.00",  
 "description": "Spaghetti, red sauce, fresh moz, parmesan cheese, fried eggplant, spanish basil",  
 "imageId": "bocconciniPasta"  
 },
 {  
 "section": "PASTA",  
 "itemName": "Spaghetti con Filetto di Manzo Australiano",  
-"price": "$ 18.00",  
+"price": "$ 20.00",  
 "description": "Spaghetti pasta, Australian beef fillet, herb sauce, Parmesan cheese",  
 "imageId": "spaghettiConFiletto"  
 },
 {  
 "section": "PIZZA",  
 "itemName": "Marguerita Pizza",  
-"price": "$ 12.00",  
+"price": "$ 14.00",  
 "description": "Pizza sauce, fresh moz, basel, parmesan cheese",  
 "imageId": "margueritaPizza"  
 },  
 {  
 "section": "PIZZA",  
 "itemName": "Burger Pizza",  
-"price": "$ 15.00",  
+"price": "$ 18.00",  
 "description": "Mustard, ketchup, mix cheese, meat, pickles",  
 "imageId": "burgerPizza"  
 },  
 {  
 "section": "PIZZA",  
 "itemName": "Burrata Pizza",  
-"price": "$ 15.00",  
+"price": "$ 19.00",  
 "description": "Tomatoes sauce, burrata cheese, wild rocca, balsamic sauce, tomatoes cerises",  
 "imageId": "burrataPizza"  
 },  
 {  
 "section": "PIZZA",  
 "itemName": "Mexican Pizza",  
-"price": "$ 13.00",  
+"price": "$ 16.00",  
 "description": "Tomato sauce, chicken, mix cheese (cheddar, mozzarella), nachos",  
 "imageId": "mexicanPizza"  
 },  
 {  
 "section": "PIZZA",  
 "itemName": "Pesto Pizza",  
-"price": "$ 12.00",  
+"price": "$ 15.00",  
 "description": "Pesto sauce, fresh mozzarella, basil, parmesan cheese, cherry tomatoes",  
 "imageId": "pestoPizza"  
 },  
 {  
 "section": "PIZZA",  
 "itemName": "Eden Pizza",  
-"price": "$ 13.00",  
+"price": "$ 15.00",  
 "description": "Bolognese sauce, fresh mozzarella, grilled red peppers, basil",  
 "imageId": "edenPizza"  
 },  
 {  
 "section": "PIZZA",  
 "itemName": "Shrimp Mushroom Truffle Pizza",  
-"price": "$ 17.00",  
+"price": "$ 21.00",  
 "description": "Truffle sauce, mushroom, parmesan cheese, shrimp, truffle oil",  
 "imageId": "shrimpMushroomTrufflePizza"  
 },  
 {  
 "section": "PIZZA",  
 "itemName": "Chicken Mushroom Truffle Pizza",  
-"price": "$ 15.00",  
+"price": "$ 18.00",  
 "description": "Truffle sauce, mushroom, parmesan, chicken, truffle oil",  
 "imageId": "chickenMushroomTrufflePizza"  
 },  
 {  
 "section": "PIZZA",  
 "itemName": "Pepperoni Pizza",  
-"price": "$ 13.00",  
+"price": "$ 15.00",  
 "description": "Tomato sauce, fresh moz, beef pepperoni, mushrooms",  
 "imageId": "pepperoniPizza"  
 },  
 {  
 "section": "PIZZA",  
 "itemName": "Vegetarian Pizza",  
-"price": "$ 13.00",  
+"price": "$ 15.00",  
 "description": "Tomato sauce, fresh moz, mushroom, white onion, colorful peppers, black olives, cherry tomatoes",  
 "imageId": "vegetarianPizza"  
 },  
 {  
 "section": "PIZZA",  
 "itemName": "Barbecue Chicken Pizza",  
-"price": "$ 15.00",  
+"price": "$ 18.00",  
 "description": "Chiken, pineapple, barbecue sauce, fresh mozzarella, red onions",  
 "imageId": "barbecueChickenPizza"  
 },  
 {  
 "section": "PIZZA",  
 "itemName": "Meat Lovers Pizza",  
-"price": "$ 18.00",  
+"price": "$ 20.00",  
 "description": "Peperoni, basterma, meat, fresh moz, honey sauce",  
 "imageId": "meatLoversPizza"  
 },  
 {  
 "section": "CHICKEN",  
 "itemName": "Chicken Mushroom",  
-"price": "$ 15.00",  
+"price": "$ 18.00",  
 "description": "SautÃ©ed vegetables, white sauce, mushroom, wedges",  
 "imageId": "chickenMushroom"  
 },  
 {  
 "section": "CHICKEN",  
 "itemName": "Parmigiana Chicken",  
-"price": "$ 15.00",  
+"price": "$ 18.00",  
 "description": "Breaded chicken, mixed organic salad, fries",  
 "imageId": "parmigianaChicken"  
 },  
 {  
 "section": "CHICKEN",  
 "itemName": "Grilled Chicken",  
-"price": "$ 14.00",  
+"price": "$ 16.00",  
 "description": "Chicken, mixed organic salad, grilled potatoes, sauce",  
 "imageId": "grilledChicken"  
 },  
 {  
 "section": "CHICKEN",  
 "itemName": "Chicken Lemon",  
-"price": "$ 13.00",  
+"price": "$ 15.00",  
 "description": "Chicken, butter, salt, olive oil, flour, black pepper, sautéed vegetables, fried potatoes, lemon sauce",  
 "imageId": "chickenLemon"  
 }, 
 {  
 "section": "BEEF",  
 "itemName": "Australian Entrecote Steak",  
-"price": "$ 45.00",  
+"price": "$ 50.00",  
 "description": "Steak entrecote Angus, grilled vegetables, butter potatoe, sauce ( herb ) ( mushroom ) ",  
 "imageId": "australianEntrecoteSteak"  
 },
 {  
 "section": "BEEF",  
 "itemName": "Beef Stroganoff",  
-"price": "$ 22.00",  
+"price": "$ 26.00",  
 "description": "Rice, special sauce, beef, onions, mushroom",  
 "imageId": "beefStroganoff"  
 },  
 {  
 "section": "BEEF",  
 "itemName": "Brazilian Fillet Steak",  
-"price": "$ 25.00",  
+"price": "$ 30.00",  
 "description": "Grilled vegetables, mashed potato, sauce (herb) (mushroom), steak",  
 "imageId": "brazilianFilletSteak"  
 },  
 {  
 "section": "BEEF",  
 "itemName": "Panino di Filetto di Manzo Australiano",  
-"price": "$ 17.00",  
+"price": "$ 19.00",  
 "description": " Green bell peppers, red bell peppers, mushrooms, Australian beef fillet, white ciabatta bread, cheddar sauce, chef’s sauce, mayonnaise",  
 "imageId": "paninoDiFiletto"  
 },
 {  
 "section": "BEEF",  
 "itemName": "Australian Fillet Steak",  
-"price": "$ 41.00",  
+"price": "$ 46.00",  
 "description": "Grilled vegetables, mashed potato, sauce (herb) (mushroom), steak",  
 "imageId": "australianFilletSteak"  
 }, 
 {  
 "section": "SEA FOOD",  
 "itemName": "Shrimp Tom Yum",  
-"price": "$ 18.00",  
+"price": "$ 20.00",  
 "description": "Cream fresh, milk, oyster mushroom, tom yam sauce, rice, green coriander",  
 "imageId": "shrimpTomYum"  
 }, 
 {  
 "section": "SEA FOOD",  
 "itemName": "Salmon Fillet",  
-"price": "$ 24.00",  
+"price": "$ 29.00",  
 "description": "Salmon, mashed potato, sautéed vegetables",  
 "imageId": "salmonFillet"  
 }, 
 {  
 "section": "SEA FOOD",  
 "itemName": "Risotto",  
-"price": "$ 14.00",  
+"price": "$ 15.00",  
 "description": "Arborio rice, special sauce shrimp",  
 "imageId": "seafoodRisotto"  
 },
 {  
 "section": "DESSERT",  
 "itemName": "Eden Cheese Cake",  
-"price": "$ 10.00",  
+"price": "$ 12.00",  
 "description": "Baklava, pistachio sauce, cream cheese",  
 "imageId": "edenCheeseCake"  
 },  
 {  
 "section": "DESSERT",  
 "itemName": "Tiramisu",  
-"price": "$ 8.00",  
+"price": "$ 11.00",  
 "description": "Biscuit, cream tiramisu, cocoa, chocolate",  
 "imageId": "tiramisu"  
 },  
 {  
 "section": "DESSERT",  
 "itemName": "Strawberry Panna Cotta",  
-"price": "$ 7.00",  
+"price": "$ 8.00",  
 "description": "Stawberry sauce, panna cotta, pecan nuts, macarponi cheese",  
 "imageId": "strawberryPannaCotta"  
 },  
 {  
 "section": "DESSERT",  
 "itemName": "Caramel Panna Cotta",  
-"price": "$ 8.00",  
+"price": "$ 10.00",  
 "description": "Caramel sauce, panna cotta, pecan nuts, macarponi cheese",  
 "imageId": "caramelPannaCotta"  
 },  
 {  
 "section": "DESSERT",  
 "itemName": "Eden Crepe",  
-"price": "$ 12.00",  
+"price": "$ 15.00",  
 "description": "Pistachio sauce, chocolate",  
 "imageId": "edenCrepe"  
 },  
 {  
 "section": "DESSERT",  
 "itemName": "Meringue Mixed Berries",  
-"price": "$ 8.00",  
+"price": "$ 10.00",  
 "description": "Vanilla ice cream, meringue, mixed berry sauce",  
 "imageId": "meringueMixedBerries"  
 },  
 {  
 "section": "DESSERT",  
 "itemName": "Pain Perdu",  
-"price": "$ 10.00",  
+"price": "$ 12.00",  
 "description": "Vanilla ice cream, caramel sauce",  
 "imageId": "painPerdu"  
 },  
 {  
 "section": "ICE CREAM",  
 "itemName": "Vanilla",  
-"price": "$ 1.50",  
+"price": "$ 2.00",  
 "description": "",  
 "imageId": "vanillaIceCream"  
 },  
 {  
 "section": "ICE CREAM",  
 "itemName": "Ashta",  
-"price": "$ 2.00",  
+"price": "$ 2.50",  
 "description": "",  
 "imageId": "ashtaIceCream"  
 },  
 {  
 "section": "ICE CREAM",  
 "itemName": "Chocolate",  
-"price": "$ 1.50",  
+"price": "$ 2.00",  
 "description": "",  
 "imageId": "chocolateIceCream"  
 },  
 {  
 "section": "ICE CREAM",  
 "itemName": "Strawberry",  
-"price": "$ 1.50",  
+"price": "$ 2.00",  
 "description": "",  
 "imageId": "strawberryIceCream"  
 },  
