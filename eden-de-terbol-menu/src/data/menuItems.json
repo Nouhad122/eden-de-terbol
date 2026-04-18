@@ -51,7 +51,7 @@
 {  
 "section": "SALADS",  
 "itemName": "Mediterranean Halloumi Salad",  
-"price": "$ 11.00",  
+"price": "$ 12.00",  
 "description": "Tomatoes, green pepper, red pepper, cucumbers, red onions, black olives, oregano, olive oil, balsamic vinegar, croutons, salt, grilled halloumi cheese",  
 "imageId": "mediterraneanHalloumiSalad"  
 },  
@@ -555,7 +555,7 @@
 {  
 "section": "HOT BEVERAGES",  
 "itemName": "Tea",  
-"price": "$ 3.50",  
+"price": "$ 5.50",  
 "description": "",  
 "imageId": "tea"  
 },  
@@ -743,15 +743,15 @@
 },  
 {  
 "section": "WATER & SOFT",  
-"itemName": "Ice Tea lemon",  
-"price": "$ 3.00",  
+"itemName": "Ice Tea Lemon",  
+"price": "$ 5.50",  
 "description": "",  
 "imageId": "iceTeaLemon"  
 },  
 {  
 "section": "WATER & SOFT",  
 "itemName": "Ice Tea Peach",  
-"price": "$ 3.00",  
+"price": "$ 5.50",  
 "description": "",  
 "imageId": "iceTeaPeach"  
 },  
